@@ -1,13 +1,19 @@
 import { About2 } from "@/components/About";
+import  About  from "@/components/About";
 import { Blog2 } from "@/components/Blog";
 import { Clients2 } from "@/components/Clients";
 import { Contact2 } from "@/components/Contact";
+import Testimonial from "@/components/Testimonial";
+import  Contact  from "@/components/Contact";
 import { Hero2 } from "@/components/Hero";
 import LetsTalk from "@/components/LetsTalk";
 import { Pricing2 } from "@/components/Pricing";
+import  Pricing from "@/components/Pricing";
 import { Projects2 } from "@/components/Projects";
+import ProjectsPage from "@/components/Projects"
 import { Resume2 } from "@/components/Resume";
 import ScrollTop from "@/components/ScrollTop";
+import Services from "@/components/Services";
 import { Services2 } from "@/components/Services";
 import { Skill2 } from "@/components/Skill";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
@@ -20,7 +26,7 @@ const Index2 = () => {
       <Hero2 />
       {/* Hero Section End */}
       {/* About Area start */}
-      <About2 />
+      <About />
       {/* About Area end */}
       {/* Headline area start */}
       <div className="headline-area-h2 rel z-2 py-25">
@@ -144,17 +150,21 @@ const Index2 = () => {
         </div>
       </div>
       {/* Headline Area end */}
+
       {/* Resume Area start */}
-      <Resume2 />
+      {/* <Resume2 /> */}
       {/* Resume Area end */}
+
       {/* Services Area start */}
-      <Services2 />
+      <Services />
       {/* Services Area end */}
+
       {/* Skill Area start */}
-      <Skill2 />
+      {/* <Skill2 /> */}
       {/* Skill Area end */}
+
       {/* Headline area start */}
-      <div className="headline-area rel z-2 py-25">
+      {/* <div className="headline-area rel z-2 py-25">
         <div className="headline-wrap">
           <span className="marquee-wrap">
             <span className="marquee-inner left">
@@ -273,13 +283,15 @@ const Index2 = () => {
             </span>
           </span>
         </div>
-      </div>
+      </div> */}
       {/* Headline Area end */}
+
       {/* Projects Area start */}
       <Projects2 />
       {/* Projects Area end */}
+
       {/* Awward Area start */}
-      <section
+      {/* <section
         id="awward"
         className="awward-area rel z-1 pt-140 rpt-100 pb-140 rpb-100"
       >
@@ -357,19 +369,27 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Awward Area end */}
+
       {/* Pricing Area start */}
-      <Pricing2 />
+      <Pricing />
       {/* Pricing Area end */}
+
       {/* Client Logo start */}
       <Clients2 />
       {/* Client Logo end */}
+
+      {/* Testimonial Area start */}
+       <Testimonial />
+      {/* Testimonial Area end */}
+
       {/* Contact Area start */}
-      <Contact2 />
+      <Contact />
       {/* Contact Area end */}
+
       {/* Headline area start */}
-      <div className="headline-area pt-60 bgc-black rel z-2">
+      {/* <div className="headline-area pt-60 bgc-black rel z-2">
         <div className="headline-wrap">
           <span className="marquee-wrap style-two pb-20">
             <span className="marquee-inner left">
@@ -404,14 +424,13 @@ const Index2 = () => {
           <span />
           <span />
         </div>
-      </div>
+      </div> */}
       {/* Headline Area end */}
+
       {/* Blog Area start */}
-      <Blog2 />
+      {/* <Blog2 /> */}
       {/* Blog Area end */}
-      {/* Lets Talk Area start */}
-      <LetsTalk />
-      {/* Lets Talk Area end */}
+
       {/* Scroll Top Button */}
       <ScrollTop />
     </NoxfolioLayout>
