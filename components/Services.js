@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Projects from "@/components/Projects";
 
 const Services = ({ extraClass }) => {
   const services = [
@@ -36,11 +37,12 @@ const Services = ({ extraClass }) => {
   return (
     <section
       id="services"
-      className={`services-area pt-130 rpt-100 pb-100 rpb-70 rel z-1 ${extraClass}`}
+      className={`services-area pt-10 rpt-100 pb-100 rpb-70 rel z-1 ${extraClass}`}
     >
+      <Projects />
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-xl-6 col-lg-8">
+          <div className="col-xl-6 col-lg-8 pt-50">
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
               <span className="sub-title mb-15">Popular Services</span>
               <h2>
