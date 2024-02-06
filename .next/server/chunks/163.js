@@ -1,1 +1,0 @@
-"use strict";exports.id=163,exports.ids=[163],exports.modules={5163:(o,e,t)=>{t.r(e),t.d(e,{$$typeof:()=>a,__esModule:()=>s,default:()=>l});let r=(0,t(6843).createProxy)(String.raw`C:\Users\kmura\Downloads\noxfolioreact-10\noxfolioreact-10\Noxfolio react\React Template\components\ProjectGridIsotop.js`),{__esModule:s,$$typeof:a}=r,l=r.default}};
