@@ -21,7 +21,7 @@ const NoxfolioLayout = ({
       <Header header={header} onePageMenu={onePageMenu} />
       <SideBar />
       {children}
-      {!noFooter && <Footer footer={footer} />}
+      {!noFooter && <Footer footer={1} />}
     </div>
   );
 };

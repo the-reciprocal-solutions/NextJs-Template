@@ -27,7 +27,7 @@ const Footer1 = () => {
       <div className="footer-top-wrap bgc-black pt-100 pb-75">
         <div className="container">
           <div className="row">
-            <div className="col-lg-2 col-md-12">
+            <div className="col-lg-3 col-md-12">
               <div className="footer-widget widget_logo wow fadeInUp delay-0-2s">
                 <div className="footer-logo">
                   <Link legacyBehavior href="/">
@@ -38,8 +38,8 @@ const Footer1 = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-7 col-md-7">
-              <div className="footer-widget widget_nav_menu wow fadeInUp delay-0-4s">
+            <div className="col-lg-3 col-md-7">
+              <div className="footer-widget  wow fadeInUp delay-0-4s">
                 <h6 className="footer-title">Quick Link</h6>
                 <ul>
                   <li>
@@ -69,21 +69,37 @@ const Footer1 = () => {
                   </li>
                 </ul>
               </div>
-              <div className="footer-widget widget_newsletter wow fadeInUp delay-0-4s">
-                <form action="#">
-                  <label htmlFor="email-address">
-                    <i className="far fa-envelope" />
-                  </label>
-                  <input
-                    id="email-address"
-                    type="email"
-                    placeholder="Email Address"
-                    required=""
-                  />
-                  <button>
-                    Sign Up <i className="far fa-angle-right" />
-                  </button>
-                </form>
+            </div>
+            <div className="col-lg-3 col-md-7">
+              <div className="footer-widget  wow fadeInUp delay-0-4s">
+                <h6 className="footer-title">Quick Link</h6>
+                <ul>
+                  <li>
+                    <Link legacyBehavior href="services">
+                      Service
+                    </Link>
+                  </li>
+                  <li>
+                    <Link legacyBehavior href="projects">
+                      Projects
+                    </Link>
+                  </li>
+                  <li>
+                    <Link legacyBehavior href="services#pricing">
+                      Pricing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link legacyBehavior href="about#faqs">
+                      Faqs
+                    </Link>
+                  </li>
+                  <li>
+                    <Link legacyBehavior href="contact">
+                      Contact
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
             <div className="col-lg-3 col-md-5">
