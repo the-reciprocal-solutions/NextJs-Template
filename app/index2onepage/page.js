@@ -2,6 +2,7 @@ import { About2 } from "@/components/About";
 import  About  from "@/components/About";
 import { Blog2 } from "@/components/Blog";
 import { Clients2 } from "@/components/Clients";
+import { Clients3 } from "@/components/Clients";
 import { Contact2 } from "@/components/Contact";
 import Testimonial from "@/components/Testimonial";
 import  Contact  from "@/components/Contact";
@@ -10,7 +11,6 @@ import LetsTalk from "@/components/LetsTalk";
 import { Pricing2 } from "@/components/Pricing";
 import  Pricing from "@/components/Pricing";
 import { Projects2 } from "@/components/Projects";
-import ProjectsPage from "@/components/Projects"
 import { Resume2 } from "@/components/Resume";
 import ScrollTop from "@/components/ScrollTop";
 import Services from "@/components/Services";
@@ -505,9 +505,11 @@ const Index2 = () => {
       {/* Pricing Area start */}
       <Pricing />
       {/* Pricing Area end */}
+        
+      {/* Headline area start
 
       {/* Client Logo start */}
-      <Clients2 />
+        <Clients3 />
       {/* Client Logo end */}
 
       {/* Testimonial Area start */}
