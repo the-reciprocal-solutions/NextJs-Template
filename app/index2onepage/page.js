@@ -17,6 +17,7 @@ import Services from "@/components/Services";
 import { Services2 } from "@/components/Services";
 import { Skill2 } from "@/components/Skill";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
+import Marquee from "react-fast-marquee";
 
 const Index2 = () => {
   return (
@@ -28,6 +29,135 @@ const Index2 = () => {
       {/* About Area start */}
       <About />
       {/* About Area end */}
+        {/* <div className="headline-area-h2 pt-40 rel z-2 pb-40">
+          <div className="headline-wrap">
+            <span className="marquee-wrap">
+              <span className="marquee-inner left">
+                <span className="marquee-item">
+                <img 
+                  src="assets/images/client-logos/client-logo-two1.png"
+                  alt="Client Logo"
+                />
+                <i className="far fa-asterisk" />
+                </span>
+                <span  className="marquee-item">
+                <img
+                  src="assets/images/client-logos/client-logo-two2.png"
+                  alt="Client Logo"
+                />
+                <i className="far fa-asterisk" />
+                </span>
+                <span  className="marquee-item">
+                <img
+                  src="assets/images/client-logos/client-logo-two1.png"
+                  alt="Client Logo"
+                />
+                <i className="far fa-asterisk" />
+                </span>
+                <span  className="marquee-item">
+                <img
+                  src="assets/images/client-logos/client-logo-two4.png"
+                  alt="Client Logo"
+                />
+                <i className="far fa-asterisk" />
+                </span>
+                <span  className="marquee-item">
+                <img
+                  src="assets/images/client-logos/client-logo-two5.png"
+                  alt="Client Logo"
+                />
+                <i className="far fa-asterisk" />
+                </span>
+              </span>
+              <div className="marquee-inner left">
+                <span className="marquee-item">
+                <img
+                  src="assets/images/client-logos/client-logo-two1.png"
+                  alt="Client Logo"
+                />
+                <i className="far fa-asterisk" />
+                </span>
+                <span  className="marquee-item">
+                <img
+                  src="assets/images/client-logos/client-logo-two2.png"
+                  alt="Client Logo"
+                />
+                <i className="far fa-asterisk" />
+                </span>
+                <span  className="marquee-item">
+                <img
+                  src="assets/images/client-logos/client-logo-two1.png"
+                  alt="Client Logo"
+                />
+                <i className="far fa-asterisk" />
+                </span>
+                <span  className="marquee-item">
+                <img
+                  src="assets/images/client-logos/client-logo-two4.png"
+                  alt="Client Logo"
+                />
+                <i className="far fa-asterisk" />
+                </span>
+                <span  className="marquee-item">
+                <img
+                  src="assets/images/client-logos/client-logo-two5.png"
+                  alt="Client Logo"
+                />
+                <i className="far fa-asterisk" />
+                </span>
+              </div>
+              <div className="marquee-inner left">
+                <span className="marquee-item">
+                <img
+                  src="assets/images/client-logos/client-logo-two1.png"
+                  alt="Client Logo"
+                />
+                <i className="far fa-asterisk" />
+                </span>
+                <span  className="marquee-item">
+                <img
+                  src="assets/images/client-logos/client-logo-two2.png"
+                  alt="Client Logo"
+                />
+                <i className="far fa-asterisk" />
+                </span>
+                <span  className="marquee-item">
+                <img
+                  src="assets/images/client-logos/client-logo-two1.png"
+                  alt="Client Logo"
+                />
+                <i className="far fa-asterisk" />
+                </span>
+                <span  className="marquee-item">
+                <img
+                  src="assets/images/client-logos/client-logo-two4.png"
+                  alt="Client Logo"
+                />
+                <i className="far fa-asterisk" />
+                </span>
+                <span  className="marquee-item">
+                <img
+                  src="assets/images/client-logos/client-logo-two5.png"
+                  alt="Client Logo"
+                />
+                <i className="far fa-asterisk" />
+                </span>
+              </div>
+            </span>
+          </div>
+        </div>
+        <div className="bg-lines">
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+      </div> */}
       {/* Headline area start */}
       <div className="headline-area-h2 rel z-2 py-25">
         <div className="headline-wrap">
