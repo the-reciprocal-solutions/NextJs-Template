@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Fragment } from "react";
 
 const Clients = () => {
   return (
@@ -186,3 +187,125 @@ export const Clients2 = () => {
     </div>
   );
 };
+
+
+export const Clients3 = ()=>{
+  return (
+    <Fragment>
+    <div className="bgc-black pt-40 rel z-2 pb-20">
+          <div className="headline-wrap">
+            <span className="marquee-wrap">
+              <span className="marquee-inner left">
+                <span className="marquee-item2">
+                <img 
+                  src="assets/images/client-logos/client-logo-two1.png"
+                  alt="Client Logo"
+                />
+                </span>
+                <span  className="marquee-item2">
+                <img
+                  src="assets/images/client-logos/client-logo-two2.png"
+                  alt="Client Logo"
+                />
+                </span>
+                <span  className="marquee-item2">
+                <img
+                  src="assets/images/client-logos/client-logo-two1.png"
+                  alt="Client Logo"
+                />
+                </span>
+                <span  className="marquee-item2">
+                <img
+                  src="assets/images/client-logos/client-logo-two4.png"
+                  alt="Client Logo"
+                />
+                </span>
+                <span  className="marquee-item2">
+                <img
+                  src="assets/images/client-logos/client-logo-two5.png"
+                  alt="Client Logo"
+                />
+                </span>
+              </span>
+              <div className="marquee-inner left">
+                <span className="marquee-item2">
+                <img
+                  src="assets/images/client-logos/client-logo-two1.png"
+                  alt="Client Logo"
+                />
+                </span>
+                <span  className="marquee-item2">
+                <img
+                  src="assets/images/client-logos/client-logo-two2.png"
+                  alt="Client Logo"
+                />
+                </span>
+                <span  className="marquee-item2">
+                <img
+                  src="assets/images/client-logos/client-logo-two1.png"
+                  alt="Client Logo"
+                />
+                </span>
+                <span  className="marquee-item2">
+                <img
+                  src="assets/images/client-logos/client-logo-two4.png"
+                  alt="Client Logo"
+                />
+                </span>
+                <span  className="marquee-item2">
+                <img
+                  src="assets/images/client-logos/client-logo-two5.png"
+                  alt="Client Logo"
+                />
+                </span>
+              </div>
+              <div className="marquee-inner left">
+                <span className="marquee-item2">
+                <img
+                  src="assets/images/client-logos/client-logo-two1.png"
+                  alt="Client Logo"
+                />
+                </span>
+                <span  className="marquee-item2">
+                <img
+                  src="assets/images/client-logos/client-logo-two2.png"
+                  alt="Client Logo"
+                />
+                </span>
+                <span  className="marquee-item2">
+                <img
+                  src="assets/images/client-logos/client-logo-two1.png"
+                  alt="Client Logo"
+                />
+                </span>
+                <span  className="marquee-item2">
+                <img
+                  src="assets/images/client-logos/client-logo-two4.png"
+                  alt="Client Logo"
+                />
+                </span>
+                <span  className="marquee-item2">
+                <img
+                  src="assets/images/client-logos/client-logo-two5.png"
+                  alt="Client Logo"
+                />
+                </span>
+              </div>
+            </span>
+          </div>
+        </div>
+        <div className="bg-lines">
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+      </div> 
+      </Fragment>
+  )
+}
