@@ -23,11 +23,11 @@ export const Projects2 = () => {
         <div className="container">
           <ProjectGridIsotop />
           <div className="project-btn text-center wow fadeInUp delay-0-2s">
-            <Link legacyBehavior href="/projects">
+            {/* <Link legacyBehavior href="/projects">
               <a className="theme-btn">
                 View More Projects <i className="far fa-angle-right" />
               </a>
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="bg-lines">
@@ -168,13 +168,13 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="project-btn text-center wow fadeInUp delay-0-2s">
+        {/* <div className="project-btn text-center wow fadeInUp delay-0-2s">
           <Link legacyBehavior href="/projects">
             <a className="theme-btn">
               View More Projects <i className="far fa-angle-right" />
             </a>
           </Link>
-        </div>
+        </div> */}
       </div>
       <div className="bg-lines">
         <span />
