@@ -6590,6 +6590,20 @@ h6,
   animation: marquee_right 20s linear infinite;
 }
 
+/* .marquee-item {
+  margin-top: 40px;
+}
+.marquee-item i {
+  margin-left: 30px;
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.marquee-item img{
+  margin-left:200px;
+} */
+/* ====== */
+
 .marquee-item {
   color: white;
   font-size: 20px;
