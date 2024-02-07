@@ -1,6 +1,14 @@
 import Link from "next/link";
 import Projects from "@/components/Projects";
 
+import dynamic from "next/dynamic";
+const ProjectGridIsotop2 = dynamic(
+  () => import("@/components/ProjectGridIsotop2"),
+  {
+    ssr: false,
+  }
+);
+
 const Services = ({ extraClass }) => {
   const services = [
     {
@@ -39,7 +47,11 @@ const Services = ({ extraClass }) => {
       id="services"
       className={`services-area pt-10 rpt-100 pb-100 rpb-70 rel z-1 ${extraClass}`}
     >
+      {/* Projects page from project grid view */}
       <Projects />
+      {/* Projects page from project grid view */}
+
+      {/* Service */}
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-6 col-lg-8 pt-50">
@@ -51,7 +63,8 @@ const Services = ({ extraClass }) => {
             </div>
           </div>
         </div>
-        <div className="row">
+        <ProjectGridIsotop2 />
+        {/* <div className="row">
           {services.map((service) => (
             <div className="col-lg-6" key={service.id}>
               <div className="service-item wow fadeInUp delay-0-2s">
@@ -70,7 +83,7 @@ const Services = ({ extraClass }) => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
       <div className="bg-lines">
         <span />
