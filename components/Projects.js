@@ -51,7 +51,7 @@ const Projects = () => {
   return (
     <section
       id="portfolio"
-      className="projects-area pt-130 rpt-100 pb-100 rpb-70 rel z-1"
+      className="projects-area pt-90 rpt-100 pb-100 rpb-70 rel z-1"
     >
       <div className="container">
         <div className="row justify-content-center">
