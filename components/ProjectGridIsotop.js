@@ -81,7 +81,7 @@ const ProjectGridIsotop = () => {
         </li>
       </ul>
       <div className="row project-masonry-active">
-        <div className="col-lg-6 item branding development">
+        <div className="col-lg-4 item branding development">
           <div className="project-item style-two wow fadeInUp delay-0-2s">
             <div className="project-image">
               <img src="assets/images/projects/project1.jpg" alt="Project" />
@@ -101,7 +101,7 @@ const ProjectGridIsotop = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-6 item design marketing graphics">
+        <div className="col-lg-4 item design marketing graphics">
           <div className="project-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img src="assets/images/projects/project2.jpg" alt="Project" />
@@ -121,7 +121,7 @@ const ProjectGridIsotop = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-6 item development graphics">
+        <div className="col-lg-4 item development graphics">
           <div className="project-item style-two wow fadeInUp delay-0-2s">
             <div className="project-image">
               <img src="assets/images/projects/project3.jpg" alt="Project" />
@@ -141,7 +141,7 @@ const ProjectGridIsotop = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-6 item design development apps">
+        <div className="col-lg-4 item design development apps">
           <div className="project-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img src="assets/images/projects/project4.jpg" alt="Project" />
@@ -161,7 +161,7 @@ const ProjectGridIsotop = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-6 item branding marketing graphics">
+        <div className="col-lg-4 item branding marketing graphics">
           <div className="project-item style-two wow fadeInUp delay-0-2s">
             <div className="project-image">
               <img src="assets/images/projects/project5.jpg" alt="Project" />
@@ -181,7 +181,7 @@ const ProjectGridIsotop = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-6 item design marketing apps">
+        <div className="col-lg-4 item design marketing apps">
           <div className="project-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img src="assets/images/projects/project6.jpg" alt="Project" />
