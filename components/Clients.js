@@ -116,7 +116,7 @@ export default Clients;
 
 export const Clients2 = () => {
   return (
-    <div className="client-logo-area bgc-black rel z-1 pt-25 pb-60">
+    <div className="client-logo-area bgc-black rel z-1 pt-100 pb-100">
       <div className="container">
         <div className="client-logo-wrap style-two">
           <Link
