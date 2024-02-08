@@ -57,7 +57,7 @@ const Projects = () => {
         <div className="row justify-content-center">
           <div className="col-xl-12">
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-              <span className="sub-title mb-15">Latest Works</span>
+              <span className="sub-title mb-15">Our Services</span>
               <h2>
                 Explore My Popular <span>Projects</span>
               </h2>
@@ -72,15 +72,14 @@ const Projects = () => {
           </div>
           <div className="col-xl-5 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Services</span>
               <h2>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  Hair Dressing
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+                Revitalize your style at TONI&GUY Essensuals with expert hairdressing services tailored to perfection.
               </p>
               <Link legacyBehavior href="/project-details">
                 <a className="details-btn">
@@ -98,15 +97,14 @@ const Projects = () => {
           </div>
           <div className="col-xl-5 col-lg-6 ms-auto">
             <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Services</span>
               <h2>
                 <Link legacyBehavior href="project-details">
-                  Website Makeup Design
+                  Beauty & Makeup
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+                  Enhance your natural beauty with flawless makeup and luxurious beauty services at <b>TONI&GUY Essensuals</b>.
               </p>
               <Link legacyBehavior href="/project-details">
                 <a className="details-btn">
@@ -124,41 +122,14 @@ const Projects = () => {
           </div>
           <div className="col-xl-5 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Services</span>
               <h2>
                 <Link legacyBehavior href="project-details">
-                  Brand Identity and Motion Design
+                  Hand & Feet Care
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
-              </p>
-              <Link legacyBehavior href="/project-details">
-                <a className="details-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="row align-items-center pb-25">
-          <div className="col-lg-6 order-lg-2">
-            <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project4.jpg" alt="Project" />
-            </div>
-          </div>
-          <div className="col-xl-5 col-lg-6 ms-auto">
-            <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
-              <h2>
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Development
-                </Link>
-              </h2>
-              <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+                Indulge in pampering treatments for your hands and feet at TONI&GUY Essensuals, where luxury meets relaxation.
               </p>
               <Link legacyBehavior href="/project-details">
                 <a className="details-btn">
