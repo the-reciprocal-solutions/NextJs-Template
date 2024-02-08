@@ -63,8 +63,8 @@ const Services = ({ extraClass }) => {
             </div>
           </div>
         </div>
-        <ProjectGridIsotop2 />
-        {/* <div className="row">
+        {/* <ProjectGridIsotop2 /> */}
+        <div className="row">
           {services.map((service) => (
             <div className="col-lg-6" key={service.id}>
               <div className="service-item wow fadeInUp delay-0-2s">
@@ -83,7 +83,7 @@ const Services = ({ extraClass }) => {
               </div>
             </div>
           ))}
-        </div> */}
+        </div>
       </div>
       <div className="bg-lines">
         <span />
