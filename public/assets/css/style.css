@@ -59,7 +59,7 @@ body {
   font-family: var(--font-inter);
   --base-color: rgba(255, 255, 255, 0.65);
   --heading-color: #ffffff;
-  --primary-color: #c9f31d;
+  --primary-color: #eaeaea;
   --lighter-color: #1f1f1f;
   --black-color: #070707;
   --border-color: rgba(255, 255, 255, 0.1);
@@ -4020,6 +4020,7 @@ h6,
 .main-header .logo {
   z-index: 9;
   padding: 2px 0;
+  width: 180px;
   position: relative;
 }
 .main-header .nice-select .current {
@@ -8388,6 +8389,9 @@ blockquote .blockquote-footer:before {
 .footer-widget {
   margin-bottom: 50px;
 }
+.footer-logo{
+  width: 200px;
+}
 
 .footer-title {
   color: white;
@@ -8584,11 +8588,11 @@ blockquote .blockquote-footer:before {
   text-align: center;
   padding-left: 550px;
   padding-bottom: 10px;
+  padding-top: 100px;
   z-index: 1; 
 }
 
 .heroContainer {
   position: relative;
 }
-
 
