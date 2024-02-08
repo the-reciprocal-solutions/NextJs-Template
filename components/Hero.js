@@ -76,21 +76,22 @@ export const Hero2 = () => {
           <div className="col-xl-12 col-lg-7">
             <div className="wow fadeIn delay-0-3s">
               <div className="image-container">
-                <img
-                  width={10000}
+                <img 
+                width={9000}
+                height={750}
                   src="https://www.toniandguyindia.com/wp-content/uploads/2018/11/legacy-bg.jpg?id=4236"
                   alt="Author"
                 />
                 <div className={`text-overlay textOverlay ml-150`}>
                   <div className="col-lg-12 col-sm-7">
                     <div className="hero-content rmb-55 pb-60 wow fadeInUp delay-0-2s">
-                      <span className="h2">Hello, I’m </span>
+                      <span className="h2">Welcome to</span>
                       <h1>
-                        <b>Roy C. Jones</b> web designer
+                        Toni & Guy Essensuals!
                       </h1>
-                      <p>We denounce with righteous indignation dislike demoralized by the charms of pleasure</p>
+                      <p>your ultimate beauty destination. From hair to toe, let us unleash your glamour with expertise and flair.</p>
                       <div className="hero-btns">
-                        <Link legacyBehavior href="/contact">
+                        {/* <Link legacyBehavior href="/contact">
                           <a className="theme-btn">
                             Hire Me <i className="far fa-angle-right" />
                           </a>
@@ -99,7 +100,7 @@ export const Hero2 = () => {
                           <a className="read-more">
                             Download Resume <i className="far fa-angle-right" />
                           </a>
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
                   </div>
