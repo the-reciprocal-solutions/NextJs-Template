@@ -128,7 +128,7 @@ const Header2 = ({ onePageMenu }) => {
                 <Link legacyBehavior href="/">
                   <a>
                     <img
-                      src="assets/images/logos/logo.png"
+                      src="assets/images/logos/Logo2.jpg"
                       alt="Logo"
                       title="Logo"
                     />
@@ -144,7 +144,7 @@ const Header2 = ({ onePageMenu }) => {
                     <Link legacyBehavior href="/">
                       <a>
                         <img
-                          src="assets/images/logos/logo.png"
+                          src="assets/images/logos/Logo2.jpg"
                           alt="Logo"
                           title="Logo"
                         />
@@ -177,20 +177,20 @@ const Header2 = ({ onePageMenu }) => {
                       <li>
                         <a href="#about">about</a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="#resume">Resume</a>
-                      </li>
+                      </li> */}
                       <li>
                         <a href="#services">services</a>
                       </li>
                       <li>
-                        <a href="#skills">skills</a>
+                        <a href="#Skills">Pricing</a>
                       </li>
                       <li>
-                        <a href="#projects">projects</a>
+                        <a href="#projects">Gallery</a>
                       </li>
                       <li>
-                        <a href="#blog">blog</a>
+                        <a href="#blog">Testimonials</a>
                       </li>
                       <li>
                         <a href="#contact">Contact</a>
