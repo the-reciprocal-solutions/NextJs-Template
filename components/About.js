@@ -9,24 +9,17 @@ const About = () => {
             <div className="col-lg-7">
               <div className="about-content-part rel z-2 rmb-55">
                 <div className="section-title mb-35 wow fadeInUp delay-0-2s">
-                  <span className="sub-title mb-15">About Me</span>
+                  <span className="sub-title mb-15">About Us</span>
                   <h2>
-                    Professional <span>Problem Solutions</span> For Digital
-                    Products
+                   <span>Essensuals by Toni & Guy</span><span></span> "Pioneers in the Industry"
                   </h2>
                   <p>
-                    At vero eos et accusamus etodio dignissimos ducimus
-                    praesentium voluptatum corrupti quos dolores quas molestias
-                    excepturi sint occaecati cupiditate provident qui officia
-                    deserunt mollitia animi, id est laborum et dolorum
+                    At Toni & Guy Essensuals, we believe in the power of individuality and personal style. Our expert stylists are not just professionals, they’re artisans who are passionate about crafting bespoke looks that truly reflect your personality.
+                  </p>
+                  <p>
+                    From avant-garde haircuts that make a statement about your personality to rejuvenating botox treatments that bring back your youthful glow, we offer a comprehensive range of services tailored to your needs. 
                   </p>
                 </div>
-                <ul className="list-style-one two-column wow fadeInUp delay-0-2s">
-                  <li>Branding &amp; Design</li>
-                  <li>Digital Marketing</li>
-                  <li>Web Development</li>
-                  <li>Product Design</li>
-                </ul>
                 <div className="about-info-box mt-25 wow fadeInUp delay-0-2s">
                   <div className="info-box-item">
                     <i className="far fa-envelope" />
@@ -41,7 +34,7 @@ const About = () => {
                     <div className="content">
                       <span>Make A Call</span>
                       <br />
-                      <a href="callto:+000(123)45688">+880 (123) 456 88</a>
+                      <a href="callto:+000(123)45688">88888 88888</a>
                     </div>
                   </div>
                 </div>
