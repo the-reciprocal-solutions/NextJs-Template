@@ -171,7 +171,7 @@ const Index2 = () => {
       {/* Skill Area end */}
 
       {/* Gallery Area start */}
-      {/* <Gallery /> */}
+      <Gallery />
       {/* Gallery Area end */}
 
       {/* Awward Area start */}
