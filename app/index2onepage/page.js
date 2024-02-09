@@ -7,16 +7,18 @@
 // import { Clients2 } from "@/components/Clients";
 // import { Resume2 } from "@/components/Resume";
 // import { Contact2 } from "@/components/Contact";
+// import { Projects2 } from "@/components/Projects";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
 import { Hero2 } from "@/components/Hero";
 import  About  from "@/components/About";
+import Projects from "@/components/Projects";
 import Services from "@/components/Services";
-import { Projects2 } from "@/components/Projects";
 import  Pricing from "@/components/Pricing";
 import { Clients3 } from "@/components/Clients";
 import Testimonial from "@/components/Testimonial";
 import  Contact  from "@/components/Contact";
 import ScrollTop from "@/components/ScrollTop";
+import { Gallery } from "@/components/Gallery";
 
 const Index2 = () => {
   return (
@@ -152,6 +154,10 @@ const Index2 = () => {
       </div>
       {/* Headline Area end */}
 
+      {/* Projects Area start */}
+      <Projects />
+      {/* Projects Area end */}
+
       {/* Resume Area start */}
       {/* <Resume2 /> */}
       {/* Resume Area end */}
@@ -164,9 +170,9 @@ const Index2 = () => {
       {/* <Skill2 /> */}
       {/* Skill Area end */}
 
-      {/* Projects Area start */}
-      <Projects2 />
-      {/* Projects Area end */}
+      {/* Gallery Area start */}
+      {/* <Gallery /> */}
+      {/* Gallery Area end */}
 
       {/* Awward Area start */}
       {/* <section
