@@ -12,7 +12,7 @@ const Projects = () => {
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
               <span className="sub-title mb-15">Our Services</span>
               <h2>
-                Explore My Popular <span>Projects</span>
+              WE OFFER A WIDE RANGE OF<br></br> <span> HAIRSTYLING & BEAUTY SERVICE</span>
               </h2>
             </div>
           </div>
