@@ -214,8 +214,8 @@ const Header2 = ({ onePageMenu }) => {
                   />
                 </button>
               </div>
-              <Link legacyBehavior href="contact">
-                <a className="theme-btn"> let,s talk</a>
+              <Link legacyBehavior href="#contact">
+                <a className="theme-btn"> Book Now</a>
               </Link>
             </div>
           </div>
