@@ -18,7 +18,7 @@ export const Gallery = () => {
     return (
       <Fragment>
       <PageBanner pageName={"Gallery"} />
-        <section className="projects-area pt-40 pb-130 rpb-100 rel z-1">
+        <section id="gallery" className="projects-area pt-40 pb-130 rpb-100 rel z-1">
           <div className="container">
             <ProjectGridIsotop />
             <div className="project-btn text-center wow fadeInUp delay-0-2s">

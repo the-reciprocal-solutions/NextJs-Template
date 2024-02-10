@@ -16,7 +16,7 @@ export default class Testimonial extends Component {
   }
   render() {
     return (
-      <section className="testimonials-area rel z-1">
+      <section id="testimonials" className="testimonials-area rel z-1">
         <div className="for-bgc-black py-130 rpy-100">
           <div className="container">
             <div className="row gap-90">
