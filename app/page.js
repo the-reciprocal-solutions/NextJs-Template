@@ -21,6 +21,7 @@ const Index2 = () => {
       <About />
       <Marquee  />        
       <Projects />
+      <Services />
       <ProjectMasonryIsotop />
       <Pricing />
         <Clients3 />
