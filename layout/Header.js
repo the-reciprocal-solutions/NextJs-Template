@@ -206,14 +206,7 @@ const Header2 = ({ onePageMenu }) => {
             {/* Menu Button */}
             <div className="menu-btns">
               {/* menu sidbar */}
-              <div className="menu-sidebar d-none d-lg-block">
-                <button onClick={() => toggleSidebar()}>
-                  <img
-                    src="assets/images/shape/sidebar-tottler-white.svg"
-                    alt="Toggler"
-                  />
-                </button>
-              </div>
+              
               <Link legacyBehavior href="#contact">
                 <a className="theme-btn"> Book Now</a>
               </Link>

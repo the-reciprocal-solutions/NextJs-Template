@@ -11,11 +11,10 @@ const Contact = () => {
               <div className="section-title mb-40">
                 <span className="sub-title mb-15">Get In Touch</span>
                 <h2>
-                  Let’s Talk For your <span>Next Projects</span>
+                  Let’s Talk For your <span>Appointment</span>
                 </h2>
                 <p>
-                  Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                  inventore veritatis
+                We strive for the perfect cut, colour and style every time to suit each client's personality and needs while upholding the coveted TONI&GUY signature.
                 </p>
               </div>
               
