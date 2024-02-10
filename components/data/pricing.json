@@ -15,37 +15,103 @@
         {
             "id":3,
             "title":"Global color ",
-            "price":250,
+            "price":1100,
             "desc":"At TONI&GUY Essensuals"
         },
         {
             "id":4,
             "title":"Keratin",
-            "price":250,
+            "price":1750,
             "desc":"At TONI&GUY Essensuals"
         },
         {
             "id":5,
             "title":"Botox",
-            "price":250,
+            "price":"",
             "desc":"At TONI&GUY Essensuals"
         },
         {
             "id":6,
             "title":"Smoothening/Straightening",
-            "price":250,
+            "price":1200,
             "desc":"At TONI&GUY Essensuals"
         },
         {
             "id":7,
             "title":"Botoliss",
-            "price":250,
+            "price":"",
             "desc":"At TONI&GUY Essensuals"
         },
         {
             "id":8,
             "title":"Hair spa (Wella plex)",
-            "price":250,
+            "price":700,
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":9,
+            "title":"Threading / Detan",
+            "price":600,
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":10,
+            "title":"Waxing",
+            "price":"",
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":11,
+            "title":"Hydra facial",
+            "price":1500,
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":12,
+            "title":"Treatment(30 Mins) ",
+            "price":"",
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":13,
+            "title":"Party makeup",
+            "price":5000,
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":14,
+            "title":"Pedicure/Manicure",
+            "price":450,
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":15,
+            "title":"Hand polish / feet polish",
+            "price":90 ,
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":16,
+            "title":"Heel peel treatment",
+            "price":1000,
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":17,
+            "title":"Nail Art",
+            "price":130,
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":18,
+            "title":"Nail Extension",
+            "price":2500,
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":19,
+            "title":"Gel polish",
+            "price":90,
             "desc":"At TONI&GUY Essensuals"
         }
     ]
