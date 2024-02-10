@@ -4,6 +4,7 @@ import { Nav, Tab } from "react-bootstrap";
 import Slider from "react-slick";
 import { Component } from "react";
 import { noxfolioSlider } from "@/utility/sliderProps";
+import Data from "@/components/data/pricing.json"
 
 
 export default class Pricing extends Component{

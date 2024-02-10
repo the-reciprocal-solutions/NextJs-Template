@@ -1,0 +1,52 @@
+{
+    "pricing":[
+        {
+            "id":1,
+            "title":"Advanced hair cut",
+            "price":250,
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":2,
+            "title":"Highlights",
+            "price":250,
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":3,
+            "title":"Global color ",
+            "price":250,
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":4,
+            "title":"Keratin",
+            "price":250,
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":5,
+            "title":"Botox",
+            "price":250,
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":6,
+            "title":"Smoothening/Straightening",
+            "price":250,
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":7,
+            "title":"Botoliss",
+            "price":250,
+            "desc":"At TONI&GUY Essensuals"
+        },
+        {
+            "id":8,
+            "title":"Hair spa (Wella plex)",
+            "price":250,
+            "desc":"At TONI&GUY Essensuals"
+        }
+    ]
+}
