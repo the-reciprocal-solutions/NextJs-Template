@@ -192,37 +192,38 @@ export const Clients2 = () => {
 export const Clients3 = ()=>{
   return (
     <Fragment>
-    <div className="bgc-black pt-40 rel z-2 pb-20">
+    <div className="bgc-primary rel z-2 pb-10">
+      <div className="container-fluid">
           <div className="headline-wrap">
             <span className="marquee-wrap">
               <span className="marquee-inner left">
                 <span className="marquee-item2">
                 <img 
-                  src="assets/images/client-logos/client-logo-two1.png"
+                  src="assets/images/client-logos/2.png"
                   alt="Client Logo"
                 />
                 </span>
                 <span  className="marquee-item2">
                 <img
-                  src="assets/images/client-logos/client-logo-two2.png"
+                  src="assets/images/client-logos/3.png"
                   alt="Client Logo"
                 />
                 </span>
                 <span  className="marquee-item2">
                 <img
-                  src="assets/images/client-logos/client-logo-two1.png"
+                  src="assets/images/client-logos/4.png"
                   alt="Client Logo"
                 />
                 </span>
                 <span  className="marquee-item2">
                 <img
-                  src="assets/images/client-logos/client-logo-two4.png"
+                  src="assets/images/client-logos/5.png"
                   alt="Client Logo"
                 />
                 </span>
                 <span  className="marquee-item2">
                 <img
-                  src="assets/images/client-logos/client-logo-two5.png"
+                  src="assets/images/client-logos/2.png"
                   alt="Client Logo"
                 />
                 </span>
@@ -230,19 +231,19 @@ export const Clients3 = ()=>{
               <div className="marquee-inner left">
                 <span className="marquee-item2">
                 <img
-                  src="assets/images/client-logos/client-logo-two1.png"
+                  src="assets/images/client-logos/3.png"
                   alt="Client Logo"
                 />
                 </span>
                 <span  className="marquee-item2">
                 <img
-                  src="assets/images/client-logos/client-logo-two2.png"
+                  src="assets/images/client-logos/4.png"
                   alt="Client Logo"
                 />
                 </span>
                 <span  className="marquee-item2">
                 <img
-                  src="assets/images/client-logos/client-logo-two1.png"
+                  src="assets/images/client-logos/5.png"
                   alt="Client Logo"
                 />
                 </span>
@@ -293,6 +294,7 @@ export const Clients3 = ()=>{
               </div>
             </span>
           </div>
+      </div>
         </div>
         <div className="bg-lines">
         <span />
