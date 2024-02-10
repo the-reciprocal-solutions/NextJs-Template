@@ -124,7 +124,7 @@ const Footer1 = () => {
             <p>
                   Developed by 
                   <Link legacyBehavior href="https://www.TheReciprocalSolutions.com">
-                    The Reciprocal Solutions
+                  <span> The Reciprocal Solutions</span>  
                   </Link>{" "}
                  
                 </p>
