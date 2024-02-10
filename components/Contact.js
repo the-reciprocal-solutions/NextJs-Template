@@ -18,12 +18,7 @@ const Contact = () => {
                   inventore veritatis
                 </p>
               </div>
-              <ul className="list-style-two">
-                <li>5+ Years Of Experience</li>
-                <li>Professional Web Designer</li>
-                <li>Mobile Apps Design</li>
-                <li>Custom Design Support</li>
-              </ul>
+              
             </div>
           </div>
           <div className="col-lg-8">
@@ -38,7 +33,7 @@ const Contact = () => {
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label htmlFor="name">Full Name</label>
+                      <label htmlFor="name">Name</label>
                       <input
                         type="text"
                         id="name"
@@ -95,7 +90,7 @@ const Contact = () => {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label htmlFor="subject">Subject</label>
+                      <label htmlFor="subject">Services</label>
                       <input
                         type="text"
                         id="subject"
@@ -112,26 +107,11 @@ const Contact = () => {
                       <div className="help-block with-errors" />
                     </div>
                   </div>
-                  <div className="col-md-12">
-                    <div className="form-group">
-                      <label htmlFor="message">Message</label>
-                      <textarea
-                        name="message"
-                        id="message"
-                        className="form-control"
-                        rows={4}
-                        placeholder="write message"
-                        required=""
-                        data-error="Please enter your Message"
-                        defaultValue={""}
-                      />
-                      <div className="help-block with-errors" />
-                    </div>
-                  </div>
+                
                   <div className="col-md-12">
                     <div className="form-group mb-0">
                       <button type="submit" className="theme-btn">
-                        Send Us Message <i className="far fa-angle-right" />
+                        Book An Appointment <i className="far fa-angle-right" />
                       </button>
                       <div id="msgSubmit" className="hidden" />
                     </div>
