@@ -4,73 +4,55 @@
             "id":1,
             "title":"Advanced hair cut",
             "price":250,
-            "desc":"At TONI&GUY Essensuals"
+            "desc":"Tailored style reflecting trends for women, men, children."
         },
         {
             "id":2,
             "title":"Highlights",
             "price":250,
-            "desc":"At TONI&GUY Essensuals"
+            "desc":"adding dimension and depth to your hair for a radiant and dynamic look."
         },
         {
             "id":3,
             "title":"Global color ",
             "price":1100,
-            "desc":"At TONI&GUY Essensuals"
+            "desc":"Transform your entire look with a stunning global color treatment."
         },
         {
             "id":4,
             "title":"Keratin",
             "price":1750,
-            "desc":"At TONI&GUY Essensuals"
+            "desc":"Revive your locks for smooth, shiny, frizz-free hair!."
         },
         {
             "id":5,
             "title":"Botox",
-            "price":"",
-            "desc":"At TONI&GUY Essensuals"
+            "price":4999,
+            "desc":"Rejuvenate hair for youthful, radiant appearance."
         },
         {
             "id":6,
             "title":"Smoothening/Straightening",
             "price":1200,
-            "desc":"At TONI&GUY Essensuals"
-        },
-        {
-            "id":7,
-            "title":"Botoliss",
-            "price":"",
-            "desc":"At TONI&GUY Essensuals"
+            "desc":" Achieve sleek, polished look, taming frizz effortlessly."
         },
         {
             "id":8,
             "title":"Hair spa (Wella plex)",
             "price":700,
-            "desc":"At TONI&GUY Essensuals"
+            "desc":"Revitalize locks for gorgeous, healthy hair."
         },
         {
             "id":9,
             "title":"Threading / Detan",
             "price":600,
-            "desc":"At TONI&GUY Essensuals"
-        },
-        {
-            "id":10,
-            "title":"Waxing",
-            "price":"",
-            "desc":"At TONI&GUY Essensuals"
+            "desc":"Precision threading, glowing skin for perfectly shaped brows."
         },
         {
             "id":11,
             "title":"Hydra facial",
             "price":1500,
-            "desc":"At TONI&GUY Essensuals"
-        },
-        {
-            "id":12,
-            "title":"Treatment(30 Mins) ",
-            "price":"",
-            "desc":"At TONI&GUY Essensuals"
+            "desc":"Tailored treatments for all skin types at TONI&GUY Essensuals."
         },
         {
             "id":13,
