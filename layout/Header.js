@@ -181,7 +181,7 @@ const Header2 = ({ onePageMenu }) => {
                         <a href="#resume">Resume</a>
                       </li> */}
                       <li>
-                        <a href="#services">services</a>
+                        <a href="#projects">services</a>
                       </li>
                       <li>
                         <a href="#pricing">Pricing</a>
