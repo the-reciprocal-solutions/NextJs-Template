@@ -23,11 +23,11 @@ export const noxfolioSlider = {
     infinite: true,
     autoplay: true,
     autoplaySpeed: 2000,
-    arrows: true,
+    arrows: false,
     speed: 1000,
     focusOnSelect: false,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 767,
