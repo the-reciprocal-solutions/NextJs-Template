@@ -1,4 +1,4 @@
-// File: /workspaces/NextJs-Template/app/index2onepage/page.js
+// File: C:\TRS\Website_Projects\NextJs-Template\app\index2onepage\page.js
 import * as entry from '../../../../app/index2onepage/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
