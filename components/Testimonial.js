@@ -27,7 +27,7 @@ export default class Testimonial extends Component {
                       Clients Testimonials
                     </span>
                     <h2>
-                      I’ve 1253+ Clients <span>Feedback</span>
+                      Clients <span>Feedback</span>
                     </h2>
                     <p>
                       Sed ut perspiciatis unde omnin natus totam rem aperiam
@@ -64,13 +64,11 @@ export default class Testimonial extends Component {
                       />
                     </div>
                     <div className="text">
-                      At vero eoset accusamus et iusto odio dignissimos ducimus
-                      quie blanditiis praesentium voluptatum deleniti atque
-                      corrupti dolores
+                      Very Friendly  staff made my 4-year-old son feel very comfortable, and this is the first salon he actually enjoyed going to.
                     </div>
                     <div className="testi-des">
-                      <h5>Rodolfo E. Shannon</h5>
-                      <span>CEO &amp; Founder</span>
+                      <h5>Gandhimathy Gandhimathy</h5>
+                      {/* <span>CEO &amp; Founder</span> */}
                     </div>
                   </div>
                   <div className="testimonial-item wow fadeInUp delay-0-4s">
@@ -81,13 +79,11 @@ export default class Testimonial extends Component {
                       />
                     </div>
                     <div className="text">
-                      Nam libero tempore cumsoluta nobise est eligendi optio
-                      cumque nihil impedit quominus idquod maxime placeat facere
-                      possimus
+                      I came for pedicure, pradhiksha madam did pedicure perfect , as I have diabetes post pedicure itching legs stopped completely immediately.
                     </div>
                     <div className="testi-des">
-                      <h5>Kenneth J. Dutton</h5>
-                      <span>Web Developer</span>
+                      <h5>Nithya S</h5>
+                      {/* <span>Web Developer</span> */}
                     </div>
                   </div>
                   <div className="testimonial-item wow fadeInUp delay-0-2s">
@@ -98,13 +94,11 @@ export default class Testimonial extends Component {
                       />
                     </div>
                     <div className="text">
-                      At vero eoset accusamus et iusto odio dignissimos ducimus
-                      quie blanditiis praesentium voluptatum deleniti atque
-                      corrupti dolores
+                      Pratheesha's Pedicure and Body massage was awesome, mallika's Hair spa was great  Totally a satisfying  service at Tony & Guy Nava India
                     </div>
                     <div className="testi-des">
-                      <h5>Rodolfo E. Shannon</h5>
-                      <span>CEO &amp; Founder</span>
+                      <h5>aista defiva</h5>
+                      {/* <span>CEO &amp; Founder</span> */}
                     </div>
                   </div>
                   <div className="testimonial-item wow fadeInUp delay-0-2s">
@@ -115,13 +109,11 @@ export default class Testimonial extends Component {
                       />
                     </div>
                     <div className="text">
-                      Nam libero tempore cumsoluta nobise est eligendi optio
-                      cumque nihil impedit quominus idquod maxime placeat facere
-                      possimus
+                      Thank You so much for the great haircut I love how it turned out, and I appreciate your skill and attention to detail.Mr suresh kumar has done hair cut to me..thanks a lot
                     </div>
                     <div className="testi-des">
-                      <h5>Kenneth J. Dutton</h5>
-                      <span>Web Developer</span>
+                      <h5>JOEL JOHN</h5>
+                      {/* <span>Web Developer</span> */}
                     </div>
                   </div>
                 </Slider>
