@@ -155,7 +155,7 @@ const ProjectMasonryIsotop = () => {
           </div>
         </div>
         <div className="col-xl-4 col-md-6 item carousel">
-          <div className="project-item style-three wow fadeInUp delay-0-4s">
+          <div className="project-item  wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img
                 src="assets/images/projects/CC03.jpg"
@@ -165,7 +165,7 @@ const ProjectMasonryIsotop = () => {
           </div>
         </div>
         <div className="col-xl-4 col-md-6 item carousel">
-          <div className="project-item style-three wow fadeInUp delay-0-4s">
+          <div className="project-item wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img
                 src="assets/images/projects/CC04.jpg"
@@ -218,7 +218,7 @@ const ProjectMasonryIsotop = () => {
           <div className="project-item fadeInUp delay-0-4s">
             <div className="project-image">
               <img
-                src="assets/images/projects/OC05.jpg"
+                src="assets/images/projects/OC03.jpg"
                 alt="Project"
               />
             </div>
@@ -238,7 +238,17 @@ const ProjectMasonryIsotop = () => {
           <div className="project-item fadeInUp delay-0-4s">
             <div className="project-image">
               <img
-                src="assets/images/projects/OC03.jpg"
+                src="assets/images/projects/OC05.jpg"
+                alt="Project"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="col-xl-4 col-md-6 item creatives">
+          <div className="project-item fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/OC06.jpg"
                 alt="Project"
               />
             </div>
