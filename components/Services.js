@@ -55,9 +55,9 @@ const Services = ({ extraClass }) => {
         <div className="row justify-content-center">
           <div className="col-xl-6 col-lg-8 pt-50">
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-              <span className="sub-title mb-15">Popular Services</span>
+              <span className="sub-title mb-15"></span>
               <h2>
-                My <span>Special Service</span> For your Business Development
+              Popular Services
               </h2>
             </div>
           </div>

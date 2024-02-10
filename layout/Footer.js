@@ -41,57 +41,40 @@ const Footer1 = () => {
             <div className="col-lg-3 col-md-7">
               <div className="footer-widget  wow fadeInUp delay-0-4s">
                 <h6 className="footer-title">Quick Link</h6>
-                <ul>
-                  <li>
-                    <Link legacyBehavior href="services">
-                      Service
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="projects">
-                      Projects
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="services#pricing">
-                      Pricing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="about#faqs">
-                      Faqs
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="contact">
-                      Contact
-                    </Link>
-                  </li>
-                </ul>
+                <p>
+                As a leader in the salon and hair industry, we hold ourselves to the highest standard when it comes to providing quality services to our clients.
+                </p>
               </div>
             </div>
             <div className="col-lg-3 col-md-7">
               <div className="footer-widget  wow fadeInUp delay-0-4s">
                 <h6 className="footer-title">Quick Link</h6>
                 <ul>
+                <li>
+                  <Link legacyBehavior href="#about">
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link legacyBehavior href="#service">
+                  Service
+                  </Link>
+                </li>
+                <li>
+                  <Link legacyBehavior href="#pricing">
+                    Pricing
+                  </Link>
+                </li>
+              
+                 
                   <li>
-                    <Link legacyBehavior href="services">
-                      Service
-                    </Link>
-                  </li>
+                  <Link legacyBehavior href="#testimonials">
+                    Testimonials
+                  </Link>
+                </li>
                   <li>
-                    <Link legacyBehavior href="projects">
-                      Projects
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="services#pricing">
-                      Pricing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="about#faqs">
-                      Faqs
+                    <Link legacyBehavior href="#gallery">
+                      Gallery
                     </Link>
                   </li>
                   <li>
@@ -107,16 +90,15 @@ const Footer1 = () => {
                 <h6 className="footer-title">Address</h6>
                 <ul>
                   <li>
-                    <i className="far fa-map-marker-alt" /> 55 Main Street, 2nd
-                    block, New York City
+                    <i className="far fa-map-marker-alt" /> 1260 / 1-1 AVINASHI ROAD, NAVA INDIA ROAD, NEXT TO RELIANCE DIGITAL COIMBATORE - 641004
                   </li>
                   <li>
                     <i className="far fa-envelope" />{" "}
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
+                    <a href="mailto:navaindia.essensuals@gmail.com">navaindia.essensuals@gmail.com</a>
                   </li>
                   <li>
                     <i className="far fa-phone" />{" "}
-                    <a href="callto:+880(123)45688">+880 (123) 456 88</a>
+                    <a href="callto:+919514708880">+91 95147 08880</a>
                   </li>
                 </ul>
               </div>
@@ -201,35 +183,21 @@ export const Footer2 = () => {
             <div className="footer-widget widget_nav_menu me-0 wow fadeInUp delay-0-4s">
               <ul>
                 <li>
-                  <Link legacyBehavior href="services">
-                    Service
+                  <Link legacyBehavior href="#about">
+                    About
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="projects">
-                    Projects
+                  <Link legacyBehavior href="#service">
+                  Service
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="services#pricing">
-                    Pricing
+                  <Link legacyBehavior href="#testimonials">
+                    Testimonials
                   </Link>
                 </li>
-                <li>
-                  <Link legacyBehavior href="about#faqs">
-                    Faqs
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="blog">
-                    News
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="contact">
-                    Contact
-                  </Link>
-                </li>
+              
               </ul>
             </div>
           </div>
