@@ -192,6 +192,11 @@ export const Clients2 = () => {
 export const Clients3 = ()=>{
   return (
     <Fragment>
+      <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
+          <h2>
+            Our<span> Global</span> Partners
+          </h2>
+      </div>
     <div className="bgc-primary rel z-2 pb-10">
       <div className="container-fluid">
           <div className="headline-wrap">
