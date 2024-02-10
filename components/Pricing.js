@@ -8,17 +8,7 @@ import data from "../components/data/pricing.json"
 
 
 export default class Pricing extends Component{
-  constructor(props) {
-    super(props);
-    this.next = this.next.bind(this);
-    this.previous = this.previous.bind(this);
-  }
-  next() {
-    this.slider.slickNext();
-  }
-  previous() {
-    this.slider.slickPrev();
-  }
+  
   render(){
     return (
       <section id="pricing" className={`pricing-area pt-60 rpt-100 pl-200 rel z-1`}>
