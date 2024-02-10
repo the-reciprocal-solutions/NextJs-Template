@@ -6843,7 +6843,7 @@ h6,
 }
 .marquee-inner.left {
   -webkit-animation: marquee_left 100s linear infinite;
-  animation: marquee_left 80s linear infinite;
+  animation: marquee_left 100s linear infinite;
 }
 .marquee-inner.right {
   -webkit-animation: marquee_right 100s linear infinite;
