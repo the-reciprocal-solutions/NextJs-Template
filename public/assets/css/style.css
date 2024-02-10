@@ -6982,7 +6982,7 @@ h6,
 /*******************************************************/
 .pricing-item {
   padding: 10px;
-  border-radius: 16px;
+  border-radius: 0px;
   margin-bottom: 30px;
   background: var(--lighter-color);
 }
@@ -7028,7 +7028,7 @@ h6,
   font-size: 16px;
   font-weight: 400;
   color: var(--base-color);
-  content: "/per month";
+  content: " Onwards";
 }
 .pricing-item .pricing-details {
   padding: 40px 50px;
@@ -8571,6 +8571,7 @@ blockquote .blockquote-footer:before {
 
 .image-container {
   position: relative;
+  background-position: center;
 }
 
 .text-overlay {
@@ -8595,4 +8596,3 @@ blockquote .blockquote-footer:before {
 .heroContainer {
   position: relative;
 }
-
