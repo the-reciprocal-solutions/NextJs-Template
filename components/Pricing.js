@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import { Component } from "react";
 import { noxfolioSlider } from "@/utility/sliderProps";
 
+
 export default class Pricing extends Component{
   constructor(props) {
     super(props);

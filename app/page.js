@@ -1,52 +1,32 @@
-import About from "@/components/About";
-import Blog from "@/components/Blog";
-import Clients from "@/components/Clients";
-import Contact from "@/components/Contact";
-import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
-import Projects from "@/components/Projects";
-import Resume from "@/components/Resume";
-import Services from "@/components/Services";
-import Skill from "@/components/Skill";
-import Testimonial from "@/components/Testimonial";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
+import { Hero2 } from "@/components/Hero";
+import  About  from "@/components/About";
+import Projects from "@/components/Projects";
+import Services from "@/components/Services";
+import  Pricing from "@/components/Pricing";
+import { Clients3 } from "@/components/Clients";
+import Testimonial from "@/components/Testimonial";
+import  Contact  from "@/components/Contact";
+import ScrollTop from "@/components/ScrollTop";
+import { Gallery } from "@/components/Gallery";
+import Marquee from "@/components/marque";
 
-export default function Home() {
+
+const Index2 = () => {
   return (
-    <NoxfolioLayout>
-      {/* Hero Section Start */}
-      <Hero />
-      {/* Hero Section End */}
-      {/* About Area start */}
+    <NoxfolioLayout header={2} footer={2} onePageMenu={true}>
+      <Hero2 />
       <About />
-      {/* About Area end */}
-      {/* Resume Area start */}
-      <Resume />
-      {/* Resume Area end */}
-      {/* Services Area start */}
-      <Services />
-      {/* Services Area end */}
-      {/* Skill Area start */}
-      <Skill />
-      {/* Skill Area end */}
-      {/* Projects Area start */}
+      <Marquee  />        
       <Projects />
-      {/* Projects Area end */}
-      {/* Testimonial Area start */}
-      <Testimonial />
-      {/* Testimonial Area end */}
-      {/* Pricing Area start */}
+      <Services />
+      <Gallery />
       <Pricing />
-      {/* Pricing Area end */}
-      {/* Contact Area start */}
+        <Clients3 />
+       <Testimonial />
       <Contact />
-      {/* Contact Area end */}
-      {/* Blog Area start */}
-      <Blog />
-      {/* Blog Area end */}
-      {/* Client Log start */}
-      <Clients />
-      {/* Client Log end */}
+      <ScrollTop />
     </NoxfolioLayout>
   );
-}
+};
+export default Index2;
