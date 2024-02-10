@@ -60,7 +60,7 @@ export default class Testimonial extends Component {
                     <div className="author">
                       <img
                         src="assets/images/testimonials/author1.png"
-                        alt="Author"
+                        alt="Author" 
                       />
                     </div>
                     <div className="text">

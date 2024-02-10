@@ -4,7 +4,7 @@ import { Nav, Tab } from "react-bootstrap";
 import Slider from "react-slick";
 import { Component } from "react";
 import { noxfolioSlider } from "@/utility/sliderProps";
-import Data from "@/components/data/pricing.json"
+import data from "../components/data/pricing.json"
 
 
 export default class Pricing extends Component{
@@ -21,8 +21,8 @@ export default class Pricing extends Component{
   }
   render(){
     return (
-      <section className={`pricing-area pt-60 rpt-100 pl-200 rel z-1`}>
-      <Slider>
+      <section id="pricing" className={`pricing-area pt-60 rpt-100 pl-200 rel z-1`}>
+     
       <div className="container-fluid">
         <div className="row justify-content-center">
           <div className="col-xl-12">
@@ -33,75 +33,35 @@ export default class Pricing extends Component{
               </h2>
             </div>
           </div>
-        </div>
-        <div className="row justify-content-center">
-          <div className="col-lg-4 col-md-6">
-            <div className="pricing-item wow fadeInUp delay-0-2s">
-              <div className="pricing-header">
-                <h4 className="title">Basic Plan</h4>
-                <p className="save-percent">
-                  Try Out Basic Plan Save <span>20%</span>
-                </p>
-                <span className="price">19.95</span>
-              </div>
-              <div className="pricing-details">
-                <p>
-                  Sed perspiciatis unde natus totam see rem aperiam eaque
-                  inventore
-                </p>
-                <Link legacyBehavior href="/contact">
-                  <a className="theme-btn">
-                    Choose Package <i className="far fa-angle-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="pricing-item wow fadeInUp delay-0-4s">
-              <div className="pricing-header">
-                <h4 className="title">Standard Plan</h4>
-                <p className="save-percent">
-                  Try Out Basic Plan Save <span>35%</span>
-                </p>
-                <span className="price">19.95</span>
-              </div>
-              <div className="pricing-details">
-                <p>
-                  Sed perspiciatis unde natus totam see rem aperiam eaque
-                  inventore
-                </p>
-                <Link legacyBehavior href="/contact">
-                  <a className="theme-btn">
-                    Choose Package <i className="far fa-angle-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="pricing-item wow fadeInUp delay-0-6s">
-              <div className="pricing-header">
-                <h4 className="title">Basic Plan</h4>
-                <p className="save-percent">
-                  Try Out Basic Plan Save <span>45%</span>
-                </p>
-                <span className="price">19.95</span>
-              </div>
-              <div className="pricing-details">
-                <p>
-                  Sed perspiciatis unde natus totam see rem aperiam eaque
-                  inventore
-                </p>
-                <Link legacyBehavior href="/contact">
-                  <a className="theme-btn">
-                    Choose Package <i className="far fa-angle-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
+        </div>  
+<Slider>
+ <div className="row justify-content-center">
+        {data.pricing.map((e)=>(
+ <div className="col-lg-4 col-md-6">
+   <div className="pricing-item wow fadeInUp delay-0-2s">
+     <div className="pricing-header">
+       <h4 className="title">{e.title}</h4>
+       <p className="save-percent">
+         Try Out Basic Plan Save <span>20%</span>
+       </p>
+       <span className="price">19.95</span>
+     </div>
+     <div className="pricing-details">
+       <p>
+         Sed perspiciatis unde natus totam see rem aperiam eaque
+         inventore
+       </p>
+       <Link legacyBehavior href="/contact">
+         <a className="theme-btn">
+           Choose Package <i className="far fa-angle-right" />
+         </a>
+       </Link>
+     </div>
+   </div>
+ </div>
+        ))}
+</div>
+</Slider>    
       </div>
       <div className="bg-lines">
         <span />
@@ -115,7 +75,6 @@ export default class Pricing extends Component{
         <span />
         <span />
       </div>
-      </Slider>
     </section>
     )
   }
