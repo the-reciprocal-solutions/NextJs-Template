@@ -1,7 +1,5 @@
 {
-  "/services/page": "app/services/page.js",
-  "/projects/page": "app/projects/page.js",
-  "/projects-masonry/page": "app/projects-masonry/page.js",
-  "/project-details/page": "app/project-details/page.js",
-  "/index2onepage/page": "app/index2onepage/page.js"
+  "/page": "app/page.js",
+  "/index2onepage/page": "app/index2onepage/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
