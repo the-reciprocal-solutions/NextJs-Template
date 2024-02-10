@@ -40,7 +40,7 @@ const ProjectMasonryIsotop = () => {
   return (
     <Fragment>
       <PageBanner pageName={"Gallery"} />
-      <ul className="project-filter filter-btns-one justify-content-center pb-35 wow fadeInUp delay-0-2s">
+      <ul id="gallery" className="project-filter filter-btns-one justify-content-center pb-35 wow fadeInUp delay-0-2s">
         <li
           className={`c-pointer ${activeBtn("*")}`}
           onClick={handleFilterKeyChange("*")}
@@ -48,250 +48,203 @@ const ProjectMasonryIsotop = () => {
           Show All
         </li>
         <li
-          className={`c-pointer ${activeBtn("design")}`}
-          onClick={handleFilterKeyChange("design")}
+          className={`c-pointer ${activeBtn("beforeandafter")}`}
+          onClick={handleFilterKeyChange("beforeandafter")}
         >
-          Design
+          Before and After
         </li>
         <li
-          className={`c-pointer ${activeBtn("branding")}`}
-          onClick={handleFilterKeyChange("branding")}
+          className={`c-pointer ${activeBtn("carousel")}`}
+          onClick={handleFilterKeyChange("carousel")}
         >
-          Branding
+          Clients Carousel
         </li>
         <li
-          className={`c-pointer ${activeBtn("marketing")}`}
-          onClick={handleFilterKeyChange("marketing")}
+          className={`c-pointer ${activeBtn("creatives")}`}
+          onClick={handleFilterKeyChange("creatives")}
         >
-          Marketing
+          Offer Creatives
         </li>
-        <li
-          className={`c-pointer ${activeBtn("development")}`}
-          onClick={handleFilterKeyChange("development")}
+        {/* <li
+          className={`c-pointer ${activeBtn("opening")}`}
+          onClick={handleFilterKeyChange("opening")}
         >
-          Development
-        </li>
-        <li
-          className={`c-pointer ${activeBtn("apps")}`}
-          onClick={handleFilterKeyChange("apps")}
-        >
-          Mobile Apps
-        </li>
-        <li
-          className={`c-pointer ${activeBtn("graphics")}`}
-          onClick={handleFilterKeyChange("graphics")}
-        >
-          Graphics
-        </li>
+          Opening Post
+        </li> */}
       </ul>
+      <div className="container">
       <div className="row project-active">
-        <div className="col-xl-4 col-md-6 item branding development">
-          <div className="project-item style-three wow fadeInUp delay-0-2s">
+        <div className="col-xl-4 col-md-6 item beforeandafter">
+          <div className="project-item  wow fadeInUp delay-0-2s">
             <div className="project-image">
               <img
-                src="assets/images/projects/project-masonry1.jpg"
+                src="assets/images/projects/B&A01.jpg"
                 alt="Project"
               />
             </div>
-            <div className="project-content">
-              <Link legacyBehavior href="/project-details">
-                <a className="project-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-              <span className="sub-title">Product Design</span>
-              <h4>
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Design
-                </Link>
-              </h4>
-            </div>
           </div>
         </div>
-        <div className="col-xl-4 col-md-6 item design marketing graphics">
-          <div className="project-item style-three wow fadeInUp delay-0-3s">
+        <div className="col-xl-4 col-md-6 item beforeandafter">
+          <div className="project-item  wow fadeInUp delay-0-3s">
             <div className="project-image">
               <img
-                src="assets/images/projects/project-masonry2.jpg"
+                src="assets/images/projects/B&A02.jpg"
                 alt="Project"
               />
             </div>
-            <div className="project-content">
-              <Link legacyBehavior href="/project-details">
-                <a className="project-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-              <span className="sub-title">Product Design</span>
-              <h4>
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Design
-                </Link>
-              </h4>
+          </div>
+        </div>
+        <div className="col-xl-4 col-md-6 item beforeandafter">
+          <div className="project-item wow fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/B&A03.jpg"
+                alt="Project"
+              />
             </div>
           </div>
         </div>
-        <div className="col-xl-4 col-md-6 item branding marketing">
+        <div className="col-xl-4 col-md-6 item beforeandafter">
+          <div className="project-item wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/B&A04.jpg"
+                alt="Project"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="col-xl-4 col-md-6 item beforeandafter">
+          <div className="project-item wow fadeInUp delay-0-3s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/B&A05.jpg"
+                alt="Project"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="col-xl-4 col-md-6 item beforeandafter">
+          <div className="project-item  wow fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/B&A06.jpg"
+                alt="Project"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="col-xl-4 col-md-6 item carousel">
+          <div className="project-item wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/CC01.jpg"
+                alt="Project"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="col-xl-4 col-md-6 item carousel">
+          <div className="project-item wow fadeInUp delay-0-3s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/CC02.jpg"
+                alt="Project"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="col-xl-4 col-md-6 item carousel">
           <div className="project-item style-three wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img
-                src="assets/images/projects/project-masonry3.jpg"
+                src="assets/images/projects/CC03.jpg"
                 alt="Project"
               />
             </div>
-            <div className="project-content">
-              <Link legacyBehavior href="/project-details">
-                <a className="project-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-              <span className="sub-title">Product Design</span>
-              <h4>
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Design
-                </Link>
-              </h4>
-            </div>
           </div>
         </div>
-        <div className="col-xl-4 col-md-6 item design development">
-          <div className="project-item style-three wow fadeInUp delay-0-2s">
-            <div className="project-image">
-              <img
-                src="assets/images/projects/project-masonry4.jpg"
-                alt="Project"
-              />
-            </div>
-            <div className="project-content">
-              <Link legacyBehavior href="/project-details">
-                <a className="project-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-              <span className="sub-title">Product Design</span>
-              <h4>
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Design
-                </Link>
-              </h4>
-            </div>
-          </div>
-        </div>
-        <div className="col-xl-4 col-md-6 item marketing apps design">
-          <div className="project-item style-three wow fadeInUp delay-0-3s">
-            <div className="project-image">
-              <img
-                src="assets/images/projects/project-masonry5.jpg"
-                alt="Project"
-              />
-            </div>
-            <div className="project-content">
-              <Link legacyBehavior href="/project-details">
-                <a className="project-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-              <span className="sub-title">Product Design</span>
-              <h4>
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Design
-                </Link>
-              </h4>
-            </div>
-          </div>
-        </div>
-        <div className="col-xl-4 col-md-6 item design development">
+        <div className="col-xl-4 col-md-6 item carousel">
           <div className="project-item style-three wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img
-                src="assets/images/projects/project-masonry6.jpg"
+                src="assets/images/projects/CC04.jpg"
                 alt="Project"
               />
             </div>
-            <div className="project-content">
-              <Link legacyBehavior href="/project-details">
-                <a className="project-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-              <span className="sub-title">Product Design</span>
-              <h4>
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Design
-                </Link>
-              </h4>
-            </div>
           </div>
         </div>
-        <div className="col-xl-4 col-md-6 item branding graphics">
-          <div className="project-item style-three wow fadeInUp delay-0-2s">
+        <div className="col-xl-4 col-md-6 item carousel">
+          <div className="project-item wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img
-                src="assets/images/projects/project-masonry7.jpg"
+                src="assets/images/projects/CC05.jpg"
                 alt="Project"
               />
             </div>
-            <div className="project-content">
-              <Link legacyBehavior href="/project-details">
-                <a className="project-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-              <span className="sub-title">Product Design</span>
-              <h4>
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Design
-                </Link>
-              </h4>
-            </div>
           </div>
         </div>
-        <div className="col-xl-4 col-md-6 item design apps graphics">
-          <div className="project-item style-three wow fadeInUp delay-0-3s">
+        <div className="col-xl-4 col-md-6 item carousel">
+          <div className="project-item fadeInUp delay-0-4s">
             <div className="project-image">
               <img
-                src="assets/images/projects/project-masonry8.jpg"
+                src="assets/images/projects/CC06.jpg"
                 alt="Project"
               />
             </div>
-            <div className="project-content">
-              <Link legacyBehavior href="/project-details">
-                <a className="project-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-              <span className="sub-title">Product Design</span>
-              <h4>
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Design
-                </Link>
-              </h4>
-            </div>
           </div>
         </div>
-        <div className="col-xl-4 col-md-6 item design marketing">
-          <div className="project-item style-three wow fadeInUp delay-0-4s">
+        <div className="col-xl-4 col-md-6 item creatives">
+          <div className="project-item fadeInUp delay-0-4s">
             <div className="project-image">
               <img
-                src="assets/images/projects/project-masonry9.jpg"
+                src="assets/images/projects/OC01.jpg"
                 alt="Project"
               />
             </div>
-            <div className="project-content">
-              <Link legacyBehavior href="/project-details">
-                <a className="project-btn">
-                  <i className="far fa-arrow-right" />
-                </a>
-              </Link>
-              <span className="sub-title">Product Design</span>
-              <h4>
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Design
-                </Link>
-              </h4>
+          </div>
+        </div>
+        <div className="col-xl-4 col-md-6 item creatives">
+          <div className="project-item fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/OC02.jpg"
+                alt="Project"
+              />
             </div>
           </div>
         </div>
+        <div className="col-xl-4 col-md-6 item creatives">
+          <div className="project-item fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/OC05.jpg"
+                alt="Project"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="col-xl-4 col-md-6 item creatives">
+          <div className="project-item fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/OC04.jpg"
+                alt="Project"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="col-xl-4 col-md-6 item creatives">
+          <div className="project-item fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/OC03.jpg"
+                alt="Project"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
     </Fragment>
   );
