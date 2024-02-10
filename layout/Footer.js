@@ -114,27 +114,20 @@ const Footer1 = () => {
                 <p>
                   Copyright @{date},{" "}
                   <Link legacyBehavior href="/">
-                    Noxfolio
+                    Essensuals Toni & Guy
                   </Link>{" "}
                   All Rights Reserved
                 </p>
               </div>
             </div>
             <div className="col-lg-6 text-lg-end">
-              <ul className="footer-bottom-nav">
-                <li>
-                  <a href="#">Facebook</a>
-                </li>
-                <li>
-                  <a href="#">Twitter</a>
-                </li>
-                <li>
-                  <a href="#">Instagram</a>
-                </li>
-                <li>
-                  <a href="#">LinkedIn</a>
-                </li>
-              </ul>
+            <p>
+                  Developed by 
+                  <Link legacyBehavior href="https://www.TheReciprocalSolutions.com">
+                    The Reciprocal Solutions
+                  </Link>{" "}
+                 
+                </p>
             </div>
           </div>
           {/* Scroll Top Button */}
