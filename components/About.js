@@ -26,7 +26,7 @@ const About = () => {
                     <div className="content">
                       <span>Email Us</span>
                       <br />
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:navaindia.essensuals@gmail.com">navaindia.essensuals@gmail.com</a>
                     </div>
                   </div>
                   <div className="info-box-item">
@@ -34,7 +34,7 @@ const About = () => {
                     <div className="content">
                       <span>Make A Call</span>
                       <br />
-                      <a href="callto:+000(123)45688">88888 88888</a>
+                      <a href="callto:+919514708880">9514708880</a>
                     </div>
                   </div>
                 </div>

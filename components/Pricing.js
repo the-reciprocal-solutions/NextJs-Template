@@ -29,7 +29,7 @@ export default class Pricing extends Component{
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
               <span className="sub-title mb-15">Pricing Package</span>
               <h2>
-                Amazing <span>Pricing</span> For your Projects
+                Amazing <span>Pricing</span> For your Service
               </h2>
             </div>
           </div>

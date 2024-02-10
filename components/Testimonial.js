@@ -30,8 +30,7 @@ export default class Testimonial extends Component {
                       Clients <span>Feedback</span>
                     </h2>
                     <p>
-                      Sed ut perspiciatis unde omnin natus totam rem aperiam
-                      eaque inventore veritatis
+                    Whatever Your Look, We've Got You Covered With An Estensive Gallery Of Stylish For You To Choose From.
                     </p>
                   </div>
                   <div className="slider-arrows">
