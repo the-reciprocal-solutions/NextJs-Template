@@ -1,6 +1,5 @@
 import Link from "next/link";
-
-
+import data from "../components/data/mar.json"
 
 const Marquee = () => {
   return (
@@ -8,10 +7,16 @@ const Marquee = () => {
         <div className="headline-wrap">
           <span className="marquee-wrap">
             <span className="marquee-inner left">
-              <span className="marquee-item">
-                branding
-                <i className="far fa-asterisk" />
-              </span>
+              {
+                data.mar.map((r) => (
+                  <span className="marquee-item">
+                {r.title}
+                  <i className="far fa-asterisk" />
+                </span>
+                )
+                )
+              }
+             
               <span className="marquee-item">
                 product design
                 <i className="far fa-asterisk" />
