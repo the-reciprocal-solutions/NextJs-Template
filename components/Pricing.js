@@ -4,7 +4,7 @@ import { Nav, Tab } from "react-bootstrap";
 
 const Pricing = ({ extraClass }) => {
   return (
-    <section className={`pricing-area pt-60  rpt-100 rel z-1 ${extraClass}`}>
+    <section id="pricing" className={`pricing-area pt-60  rpt-100 rel z-1 ${extraClass}`}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-12">
