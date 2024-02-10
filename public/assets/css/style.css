@@ -6842,11 +6842,11 @@ h6,
   display: flex;
 }
 .marquee-inner.left {
-  -webkit-animation: marquee_left 20s linear infinite;
-  animation: marquee_left 20s linear infinite;
+  -webkit-animation: marquee_left 100s linear infinite;
+  animation: marquee_left 80s linear infinite;
 }
 .marquee-inner.right {
-  -webkit-animation: marquee_right 20s linear infinite;
+  -webkit-animation: marquee_right 100s linear infinite;
   animation: marquee_right 20s linear infinite;
 }
 
@@ -7022,7 +7022,7 @@ h6,
   }
 }
 .pricing-item .pricing-header .price:before {
-  content: "$";
+  content: "";
 }
 .pricing-item .pricing-header .price:after {
   font-size: 16px;
