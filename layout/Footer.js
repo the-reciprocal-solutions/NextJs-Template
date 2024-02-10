@@ -120,22 +120,15 @@ const Footer1 = () => {
                 </p>
               </div>
             </div>
-            {/* <div className="col-lg-6 text-lg-end">
-              <ul className="footer-bottom-nav">
-                <li>
-                  <a href="#">Facebook</a>
-                </li>
-                <li>
-                  <a href="#">Twitter</a>
-                </li>
-                <li>
-                  <a href="#">Instagram</a>
-                </li>
-                <li>
-                  <a href="#">LinkedIn</a>
-                </li>
-              </ul>
-            </div> */}
+            <div className="col-lg-6 text-lg-end">
+            <p>
+                  Developed by 
+                  <Link legacyBehavior href="https://www.TheReciprocalSolutions.com">
+                    The Reciprocal Solutions
+                  </Link>{" "}
+                 
+                </p>
+            </div>
           </div>
           {/* Scroll Top Button */}
           <a href="#" className="scroll-top scroll-to-target d-inline-block">
