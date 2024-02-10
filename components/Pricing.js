@@ -23,7 +23,7 @@ export default class Pricing extends Component{
     return (
       <section id="pricing" className={`pricing-area pt-60 rpt-100 pl-200 rel z-1`}>
      
-      <div className="container-fluid">
+      <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-12">
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
@@ -44,14 +44,13 @@ ref={(c) => (this.slider = c)}
      <div className="pricing-header">
        <h4 className="title">{e.title}</h4>
        <p className="save-percent">
-         Try Out Basic Plan Save <span>20%</span>
+         {/* <span>{e.special}</span> */}
        </p>
-       <span className="price">19.95</span>
+       <span className="price">{e.price}</span>
      </div>
      <div className="pricing-details">
        <p>
-         Sed perspiciatis unde natus totam see rem aperiam eaque
-         inventore
+         {e.desc}
        </p>
        <Link legacyBehavior href="/contact">
          <a className="theme-btn">
