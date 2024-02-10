@@ -18,4 +18,23 @@ export const noxfolioSlider = {
       },
     ],
   },
+  pricing: {
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: true,
+    speed: 1000,
+    focusOnSelect: false,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  }
 };
