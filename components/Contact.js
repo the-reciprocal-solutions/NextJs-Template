@@ -51,19 +51,19 @@ const Contact = () => {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label htmlFor="email">Email Address</label>
+                      <label htmlFor="email">Locality</label>
                       <input
-                        type="email"
-                        id="email"
-                        name="email"
+                        type="text"
+                        id="locality"
+                        name="locality"
                         className="form-control"
                         defaultValue=""
-                        placeholder="support@gmail.com"
+                        placeholder="locality"
                         required=""
-                        data-error="Please enter your Email"
+                        data-error="Please enter your locality"
                       />
-                      <label htmlFor="email" className="for-icon">
-                        <i className="far fa-envelope" />
+                      <label htmlFor="locality" className="for-icon">
+                        <i className="far fa-location" />
                       </label>
                       <div className="help-block with-errors" />
                     </div>
@@ -77,7 +77,7 @@ const Contact = () => {
                         name="phone_number"
                         className="form-control"
                         defaultValue=""
-                        placeholder="+880 (123) 456 88"
+                        placeholder="+91 98765 43210"
                         required=""
                         data-error="Please enter your Phone Number"
                       />
@@ -89,20 +89,51 @@ const Contact = () => {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label htmlFor="subject">Services</label>
+                      <label htmlFor="service">Services</label>
                       <input
                         type="text"
-                        id="subject"
-                        name="subject"
+                        id="service"
+                        name="service"
                         className="form-control"
                         defaultValue=""
-                        placeholder="Subject"
+                        placeholder="service"
                         required=""
-                        data-error="Please enter your Subject"
+                        data-error="Please enter your service"
                       />
-                      <label htmlFor="subject" className="for-icon">
-                        <i className="far fa-text" />
-                      </label>
+                      
+                      <div className="help-block with-errors" />
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="form-group">
+                      <label htmlFor="subject">Time</label>
+                      <input
+                        type="time"
+                        id="rime"
+                        name="time"
+                        className="form-control"
+                        defaultValue=""
+                        placeholder="time"
+                        required=""
+                        data-error="Please enter your time"
+                      />
+                      
+                      <div className="help-block with-errors" />
+                    </div>
+                  </div><div className="col-md-6">
+                    <div className="form-group">
+                      <label htmlFor="subject">Date</label>
+                      <input
+                        type="date"
+                        id="date"
+                        name="date"
+                        className="form-control"
+                        defaultValue=""
+                        placeholder="date"
+                        required=""
+                        data-error="Please enter your Date"
+                      />
+                      
                       <div className="help-block with-errors" />
                     </div>
                   </div>
