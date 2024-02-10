@@ -21,62 +21,62 @@ export default class Pricing extends Component{
   }
   render(){
     return (
-      <section id="pricing" className={`pricing-area pt-60 rpt-100 pl-200 rel z-1`}>
-     
-      <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-xl-12">
-            <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-              <span className="sub-title mb-15">Pricing Package</span>
-              <h2>
-                Amazing <span>Pricing</span> For your Service
-              </h2>
-            </div>
+        <section id="pricing" className={`pricing-area pt-60 rpt-100 pl-200 rel z-1`}>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-xl-12">
+                <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
+                  <span className="sub-title mb-15">Pricing Package</span>
+                  <h2>
+                    Amazing <span>Pricing</span> For your Service
+                  </h2>
+                </div>
+              </div>
+            </div>  
+            <div className="row justify-content-center">
+            <Slider 
+            ref={(c) => (this.slider = c)}
+            {...noxfolioSlider.pricing}
+            >
+              {data.pricing.map((e)=>(
+              <div className="col-lg-4 col-md-6 ">
+                <div className="pricing-item wow fadeInUp delay-0-2s">
+                  <div className="pricing-header">
+                    <h4 className="title">{e.title}</h4>
+                    <p className="save-percent">
+                      {/* <span>{e.special}</span> */}
+                    </p>
+                    <span className="price">₹{e.price}</span>
+                  </div>
+                  <div className="pricing-details">
+                    <p>
+                      {e.desc}
+                    </p>
+                    <Link legacyBehavior href="/contact">
+                      <a className="theme-btn">
+                        Choose Package <i className="far fa-angle-right" />
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              ))}
+            </Slider>    
           </div>
-        </div>  
- <div className="row justify-content-center">
-<Slider 
-ref={(c) => (this.slider = c)}
-{...noxfolioSlider.pricing}>
-        {data.pricing.map((e)=>(
- <div className="col-lg-4 col-md-6 justify-content-center">
-   <div className="pricing-item wow fadeInUp delay-0-2s">
-     <div className="pricing-header">
-       <h4 className="title">{e.title}</h4>
-       <p className="save-percent">
-         {/* <span>{e.special}</span> */}
-       </p>
-       <span className="price">{e.price}</span>
-     </div>
-     <div className="pricing-details">
-       <p>
-         {e.desc}
-       </p>
-       <Link legacyBehavior href="/contact">
-         <a className="theme-btn">
-           Choose Package <i className="far fa-angle-right" />
-         </a>
-       </Link>
-     </div>
-   </div>
- </div>
-        ))}
-        </Slider>    
-</div>
-      </div>
-      <div className="bg-lines">
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-      </div>
-    </section>
+          </div>
+          <div className="bg-lines">
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+        </section>
     )
   }
 }
