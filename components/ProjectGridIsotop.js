@@ -9,7 +9,7 @@ const ProjectGridIsotop = () => {
   const [filterKey, setFilterKey] = useState("*");
   useEffect(() => {
     setTimeout(() => {
-      isotope.current = new Isotope(".project-masonry-active", {
+      isotope.current = new Isotope(".project-active", {
         itemSelector: ".item",
         percentPosition: true,
         masonry: {
@@ -80,7 +80,7 @@ const ProjectGridIsotop = () => {
           Graphics
         </li>
       </ul>
-      <div className="row project-masonry-active">
+      <div className="row project-active">
         <div className="col-lg-4 item branding development">
           <div className="project-item style-two wow fadeInUp delay-0-2s">
             <div className="project-image">
