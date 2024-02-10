@@ -114,13 +114,13 @@ const Footer1 = () => {
                 <p>
                   Copyright @{date},{" "}
                   <Link legacyBehavior href="/">
-                    Noxfolio
+                    Essensuals Toni & Guy
                   </Link>{" "}
                   All Rights Reserved
                 </p>
               </div>
             </div>
-            <div className="col-lg-6 text-lg-end">
+            {/* <div className="col-lg-6 text-lg-end">
               <ul className="footer-bottom-nav">
                 <li>
                   <a href="#">Facebook</a>
@@ -135,7 +135,7 @@ const Footer1 = () => {
                   <a href="#">LinkedIn</a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
           {/* Scroll Top Button */}
           <a href="#" className="scroll-top scroll-to-target d-inline-block">
