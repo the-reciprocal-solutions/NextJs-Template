@@ -2,14 +2,17 @@
 
 import Isotope from "isotope-layout";
 import Link from "next/link";
+
 import { Fragment, useEffect, useRef, useState } from "react";
+import PageBanner from "./PageBanner";
+import { Gallery } from "./Gallery";
 const ProjectMasonryIsotop = () => {
   // Isotope
   const isotope = useRef();
   const [filterKey, setFilterKey] = useState("*");
   useEffect(() => {
     setTimeout(() => {
-      isotope.current = new Isotope(".project-masonry-active", {
+      isotope.current = new Isotope(".project-active", {
         itemSelector: ".item",
         percentPosition: true,
         masonry: {
@@ -36,6 +39,7 @@ const ProjectMasonryIsotop = () => {
   const activeBtn = (value) => (value === filterKey ? "current" : "");
   return (
     <Fragment>
+      <PageBanner pageName={"Gallery"} />
       <ul className="project-filter filter-btns-one justify-content-center pb-35 wow fadeInUp delay-0-2s">
         <li
           className={`c-pointer ${activeBtn("*")}`}
@@ -80,7 +84,7 @@ const ProjectMasonryIsotop = () => {
           Graphics
         </li>
       </ul>
-      <div className="row project-masonry-active">
+      <div className="row project-active">
         <div className="col-xl-4 col-md-6 item branding development">
           <div className="project-item style-three wow fadeInUp delay-0-2s">
             <div className="project-image">

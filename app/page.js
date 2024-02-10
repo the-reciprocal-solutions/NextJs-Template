@@ -8,8 +8,10 @@ import { Clients3 } from "@/components/Clients";
 import Testimonial from "@/components/Testimonial";
 import  Contact  from "@/components/Contact";
 import ScrollTop from "@/components/ScrollTop";
-import { Gallery } from "@/components/Gallery";
-import Marquee from "@/components/marque";
+
+import Marquee from "@/components/Marque";
+import ProjectMasonryIsotop from "@/components/ProjectMasonryIsotop";
+
 
 
 const Index2 = () => {
@@ -19,8 +21,7 @@ const Index2 = () => {
       <About />
       <Marquee  />        
       <Projects />
-      <Services />
-      <Gallery />
+      <ProjectMasonryIsotop />
       <Pricing />
         <Clients3 />
        <Testimonial />
