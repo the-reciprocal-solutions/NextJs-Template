@@ -3,7 +3,7 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <section
-      id="portfolio"
+      id="projects"
       className="projects-area pt-90 rpt-100 pb-100 rpb-70 rel z-1"
     >
       <div className="container">
@@ -27,14 +27,12 @@ const Projects = () => {
             <div className="project-content wow fadeInRight delay-0-2s">
               <span className="sub-title">Services</span>
               <h2>
-                <Link legacyBehavior href="project-details">
                   Hair Dressing
-                </Link>
               </h2>
               <p>
                 Revitalize your style at TONI&GUY Essensuals with expert hairdressing services tailored to perfection.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="#contact">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -52,14 +50,12 @@ const Projects = () => {
             <div className="project-content wow fadeInRight delay-0-2s">
               <span className="sub-title">Services</span>
               <h2>
-                <Link legacyBehavior href="project-details">
                   Beauty & Makeup
-                </Link>
               </h2>
               <p>
                   Enhance your natural beauty with flawless makeup and luxurious beauty services at <b>TONI&GUY Essensuals</b>.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/#contact">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -77,14 +73,12 @@ const Projects = () => {
             <div className="project-content wow fadeInRight delay-0-2s">
               <span className="sub-title">Services</span>
               <h2>
-                <Link legacyBehavior href="project-details">
                   Hand & Feet Care
-                </Link>
               </h2>
               <p>
                 Indulge in pampering treatments for your hands and feet at TONI&GUY Essensuals, where luxury meets relaxation.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="#contact">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
