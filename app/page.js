@@ -13,7 +13,7 @@ import ProjectMasonryIsotop from "@/components/ProjectMasonryIsotop";
 
 
 
-const Index2 = () => {
+export default function Home() {
   return (
     <NoxfolioLayout header={2} footer={2} onePageMenu={true}>
       <Hero2 />
@@ -30,4 +30,3 @@ const Index2 = () => {
     </NoxfolioLayout>
   );
 };
-export default Index2;

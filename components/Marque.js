@@ -9,7 +9,7 @@ const Marquee = () => {
             <span className="marquee-inner left">
               {
                 data.mar.map((r) => (
-                  <span className="marquee-item">
+                  <span key={r.id} className="marquee-item">
                 {r.title}
                   <i className="far fa-asterisk" />
                 </span>
