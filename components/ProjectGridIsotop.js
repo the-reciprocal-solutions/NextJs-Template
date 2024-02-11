@@ -1,30 +1,34 @@
 "use client";
-
-import Isotope from "isotope-layout";
 import Link from "next/link";
 import { Fragment, useEffect, useRef, useState } from "react";
+
 const ProjectGridIsotop = () => {
   // Isotope
-  const isotope = useRef();
+  const isotope = useRef(null);
   const [filterKey, setFilterKey] = useState("*");
   useEffect(() => {
-    setTimeout(() => {
-      isotope.current = new Isotope(".project-active", {
-        itemSelector: ".item",
-        percentPosition: true,
-        masonry: {
-          columnWidth: ".item",
-        },
-        animationOptions: {
-          duration: 750,
-          easing: "linear",
-          queue: false,
-        },
-      });
-    }, 500);
+    if (typeof window !== 'undefined') {
+      const initializeIsotope = async () => {
+        const Isotope = (await import('isotope-layout')).default;
+        isotope.current = new Isotope(".project-active", {
+          itemSelector: ".item",
+          percentPosition: true,
+          masonry: {
+            columnWidth: ".item",
+          },
+          animationOptions: {
+            duration: 750,
+            easing: "linear",
+            queue: false,
+          },
+        });
+      }
+      window.addEventListener("load", initializeIsotope)
+      return window.removeEventListener("load", initializeIsotope)
+    }
   }, []);
   useEffect(() => {
-    if (isotope.current) {
+    if (typeof window !== 'undefined' && isotope.current) {
       filterKey === "*"
         ? isotope.current.arrange({ filter: `*` })
         : isotope.current.arrange({ filter: `.${filterKey}` });
