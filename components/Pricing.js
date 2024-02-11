@@ -11,7 +11,7 @@ export default class Pricing extends Component{
   
   render(){
     return (
-        <section id="pricing" className={`pricing-area pt-60 rpt-100 pl-200 rel z-1`}>
+        <section id="pricing" className={`pricing-area pt-130 rpt-100 pl-200 pb-80 rel z-1`}>
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-xl-12">
