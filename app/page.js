@@ -17,6 +17,7 @@ export default function Home() {
   return (
     <NoxfolioLayout header={2} footer={2} onePageMenu={true}>
       <Hero2 />
+      <Contact />
       <About />
       <Marquee  />        
       <Projects />
@@ -25,7 +26,6 @@ export default function Home() {
       <Pricing />
       <Clients3 />
       <Testimonial />
-      <Contact />
       <ScrollTop />
     </NoxfolioLayout>
   );
