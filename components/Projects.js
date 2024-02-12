@@ -12,15 +12,16 @@ const Projects = () => {
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
               <span className="sub-title mb-15">Our Services</span>
               <h2>
-              WE OFFER A WIDE RANGE OF<br></br> <span> HAIRSTYLING & BEAUTY SERVICE</span>
+              We offer a wide range of<br></br> <span> Hairstyling & Beauty Service</span>
               </h2>
             </div>
           </div>
         </div>
+        {/* Service 1 */}
         <div className="row align-items-center pb-25">
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project1.jpg" alt="Project" />
+              <img src="assets/images/projects/Projects-4.jpg" alt="Project" />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6">
@@ -40,6 +41,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        {/* Service 2 */}
         <div className="row align-items-center pb-25">
           <div className="col-lg-6 order-lg-2">
             <div className="project-image wow fadeInLeft delay-0-2s">
@@ -63,6 +65,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        {/* Service 3 */}
         <div className="row align-items-center pb-25">
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
@@ -83,6 +86,30 @@ const Projects = () => {
                   <i className="far fa-arrow-right" />
                 </a>
               </Link>
+            </div>
+          </div>
+        </div>
+        {/* Service 4 */}
+        <div className="row align-items-center pb-25">
+          <div className="col-xl-5 col-lg-6">
+            <div className="project-content wow fadeInRight delay-0-2s">
+              <span className="sub-title">Services</span>
+              <h2>
+                Hydrafacial Treatment
+              </h2>
+              <p>
+              Discover radiant skin with our HydraFacial treatments – a revolutionary skincare solution for a refreshed, rejuvenated complexion
+              </p>
+              <Link legacyBehavior href="#contact">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+          </div>
+          <div className="col-lg-6">
+            <div className="project-image wow fadeInLeft delay-0-2s">
+              <img src="assets/images/projects/Treatment.jpg" alt="Project" />
             </div>
           </div>
         </div>
