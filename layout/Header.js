@@ -122,7 +122,7 @@ const Header2 = ({ onePageMenu }) => {
       {/*Header-Upper*/}
       <div className="header-upper">
         <div className="container container-1620 clearfix">
-          <div className="header-inner rel d-flex align-items-center">
+          <div className="header-inner rel d-flex align-items-center col-md-11">
             <div className="logo-outer">
               <div className="logo">
                 <Link legacyBehavior href="/">
@@ -204,13 +204,11 @@ const Header2 = ({ onePageMenu }) => {
               {/* Main Menu End*/}
             </div>
             {/* Menu Button */}
-            <div className="menu-btns">
-              {/* menu sidbar */}
-              
+            {/* <div className="menu-btns">
               <Link legacyBehavior href="#contact">
                 <a className="theme-btn"> Book Now</a>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
