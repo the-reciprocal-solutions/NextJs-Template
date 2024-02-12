@@ -24,12 +24,13 @@ const ProjectMasonryIsotop = () => {
           },
         });
       }
-      window.addEventListener("load", initializeIsotope)
-      return window.removeEventListener("load", initializeIsotope)
+      window.onload = initializeIsotope()
+      return () => { window.onload = null }
     }
   }, []);
   useEffect(() => {
-    if (typeof window !== 'undefined' && isotope.current) {
+    if (isotope.current) {
+      console.log("set filter on isotope project masonry")
       filterKey === "*"
         ? isotope.current.arrange({ filter: `*` })
         : isotope.current.arrange({ filter: `.${filterKey}` });
