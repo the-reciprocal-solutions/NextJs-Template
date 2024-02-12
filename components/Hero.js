@@ -81,18 +81,18 @@ export const Hero2 = () => {
                 <div className={`text-overlay ml-150`}>
                   <div className="col-lg-12 col-sm-7">
                     <div className="hero-content rmb-55 pb-60 wow fadeInUp delay-0-2s">
-                      <span className="h2">Welcome to</span>
+                      <span className="h2"><strong>Welcome to</strong></span>
                       <h1>
                         Toni & Guy Essensuals!
                       </h1>
-                      <p>Essensuals navaindia is the only salon with car parking space and it is the largest salon in Coimbatore</p>
+                      <p>Essensuals navaindia is the one and only salon with <strong>car parking space</strong> and it is the largest salon in Coimbatore</p>
                       <div className="hero-btns">
-                        {/* <Link legacyBehavior href="/contact">
+                        <Link legacyBehavior href="#contact">
                           <a className="theme-btn">
-                            Hire Me <i className="far fa-angle-right" />
+                            Book Now <i className="far fa-angle-right" />
                           </a>
                         </Link>
-                        <Link legacyBehavior href="/contact">
+                        {/* <Link legacyBehavior href="/contact">
                           <a className="read-more">
                             Download Resume <i className="far fa-angle-right" />
                           </a>
