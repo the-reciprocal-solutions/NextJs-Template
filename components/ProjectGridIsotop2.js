@@ -1,6 +1,5 @@
 "use client";
 import { Fragment, useEffect, useRef, useState } from "react";
-
 const ProjectGridIsotop2 = () => {
 
   // Isotope
@@ -9,8 +8,9 @@ const ProjectGridIsotop2 = () => {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const initializeIsotope = async () => {
+        console.log("init iso")
         const Isotope = (await import('isotope-layout')).default;
-        isotope.current = new Isotope(".project-active", {
+        isotope.current = new Isotope(".project-masonry-active", {
           itemSelector: ".item",
           percentPosition: true,
           masonry: {
@@ -23,12 +23,13 @@ const ProjectGridIsotop2 = () => {
           },
         });
       }
-      window.addEventListener("load", initializeIsotope)
-      return window.removeEventListener("load", initializeIsotope)
+      window.onload = initializeIsotope()
+      return () => { window.onload = null }
     }
   }, []);
   useEffect(() => {
-    if (typeof window !== 'undefined' && isotope.current) {
+    if (isotope.current) {
+      console.log("set filter on isotope project grid 2 iso")
       filterKey === "*"
         ? isotope.current.arrange({ filter: `*` })
         : isotope.current.arrange({ filter: `.${filterKey}` });
