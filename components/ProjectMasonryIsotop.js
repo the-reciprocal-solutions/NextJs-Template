@@ -51,12 +51,6 @@ const ProjectMasonryIsotop = () => {
           Show All
         </li>
         <li
-          className={`c-pointer ${activeBtn("beforeandafter")}`}
-          onClick={handleFilterKeyChange("beforeandafter")}
-        >
-          Before and After
-        </li>
-        <li
           className={`c-pointer ${activeBtn("carousel")}`}
           onClick={handleFilterKeyChange("carousel")}
         >
@@ -68,6 +62,12 @@ const ProjectMasonryIsotop = () => {
         >
           Offer Creatives
         </li>
+        <li
+          className={`c-pointer ${activeBtn("beforeandafter")}`}
+          onClick={handleFilterKeyChange("beforeandafter")}
+        >
+          Before and After
+        </li>
         {/* <li
           className={`c-pointer ${activeBtn("opening")}`}
           onClick={handleFilterKeyChange("opening")}
@@ -77,67 +77,7 @@ const ProjectMasonryIsotop = () => {
       </ul>
       <div className="container">
         <div className="row project-active">
-          <div className="col-xl-4 col-md-6 item beforeandafter">
-            <div className="project-item  wow fadeInUp delay-0-2s">
-              <div className="project-image">
-                <img
-                  src="assets/images/projects/B&A01.jpg"
-                  alt="Project"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-4 col-md-6 item beforeandafter">
-            <div className="project-item  wow fadeInUp delay-0-3s">
-              <div className="project-image">
-                <img
-                  src="assets/images/projects/B&A02.jpg"
-                  alt="Project"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-4 col-md-6 item beforeandafter">
-            <div className="project-item wow fadeInUp delay-0-4s">
-              <div className="project-image">
-                <img
-                  src="assets/images/projects/B&A03.jpg"
-                  alt="Project"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-4 col-md-6 item beforeandafter">
-            <div className="project-item wow fadeInUp delay-0-2s">
-              <div className="project-image">
-                <img
-                  src="assets/images/projects/B&A04.jpg"
-                  alt="Project"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-4 col-md-6 item beforeandafter">
-            <div className="project-item wow fadeInUp delay-0-3s">
-              <div className="project-image">
-                <img
-                  src="assets/images/projects/B&A05.jpg"
-                  alt="Project"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-4 col-md-6 item beforeandafter">
-            <div className="project-item  wow fadeInUp delay-0-4s">
-              <div className="project-image">
-                <img
-                  src="assets/images/projects/B&A06.jpg"
-                  alt="Project"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-4 col-md-6 item carousel">
+        <div className="col-xl-4 col-md-6 item carousel">
             <div className="project-item wow fadeInUp delay-0-2s">
               <div className="project-image">
                 <img
@@ -252,6 +192,66 @@ const ProjectMasonryIsotop = () => {
               <div className="project-image">
                 <img
                   src="assets/images/projects/OC06.jpg"
+                  alt="Project"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-4 col-md-6 item beforeandafter">
+            <div className="project-item  wow fadeInUp delay-0-2s">
+              <div className="project-image">
+                <img
+                  src="assets/images/projects/B&A01.jpg"
+                  alt="Project"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-4 col-md-6 item beforeandafter">
+            <div className="project-item  wow fadeInUp delay-0-3s">
+              <div className="project-image">
+                <img
+                  src="assets/images/projects/B&A02.jpg"
+                  alt="Project"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-4 col-md-6 item beforeandafter">
+            <div className="project-item wow fadeInUp delay-0-4s">
+              <div className="project-image">
+                <img
+                  src="assets/images/projects/B&A03.jpg"
+                  alt="Project"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-4 col-md-6 item beforeandafter">
+            <div className="project-item wow fadeInUp delay-0-2s">
+              <div className="project-image">
+                <img
+                  src="assets/images/projects/B&A04.jpg"
+                  alt="Project"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-4 col-md-6 item beforeandafter">
+            <div className="project-item wow fadeInUp delay-0-3s">
+              <div className="project-image">
+                <img
+                  src="assets/images/projects/B&A05.jpg"
+                  alt="Project"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-4 col-md-6 item beforeandafter">
+            <div className="project-item  wow fadeInUp delay-0-4s">
+              <div className="project-image">
+                <img
+                  src="assets/images/projects/B&A06.jpg"
                   alt="Project"
                 />
               </div>
