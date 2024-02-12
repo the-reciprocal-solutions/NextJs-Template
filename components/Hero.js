@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Counter from "./Counter";
 import Image from 'react-bootstrap/Image';
 
 
