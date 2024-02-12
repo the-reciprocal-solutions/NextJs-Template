@@ -63,10 +63,10 @@ export default class Testimonial extends Component {
                       />
                     </div>
                     <div className="text">
-                      Very Friendly  staff made my 4-year-old son feel very comfortable, and this is the first salon he actually enjoyed going to.
+                      Superb Salon with added benefit of free parking in a city where finding space is usually a struggle.It's such a relief not to worry about parking space.I'd highly recommend it.
                     </div>
                     <div className="testi-des">
-                      <h5>Gandhimathy Gandhimathy</h5>
+                      <h5>Vidhyabharathi S</h5>
                       {/* <span>CEO &amp; Founder</span> */}
                     </div>
                   </div>
@@ -96,7 +96,7 @@ export default class Testimonial extends Component {
                       Pratheesha's Pedicure and Body massage was awesome, mallika's Hair spa was great  Totally a satisfying  service at Tony & Guy Nava India
                     </div>
                     <div className="testi-des">
-                      <h5>aista defiva</h5>
+                      <h5>Aista defiva</h5>
                       {/* <span>CEO &amp; Founder</span> */}
                     </div>
                   </div>
@@ -111,7 +111,7 @@ export default class Testimonial extends Component {
                       Thank You so much for the great haircut I love how it turned out, and I appreciate your skill and attention to detail.Mr suresh kumar has done hair cut to me..thanks a lot
                     </div>
                     <div className="testi-des">
-                      <h5>JOEL JOHN</h5>
+                      <h5>Joel John</h5>
                       {/* <span>Web Developer</span> */}
                     </div>
                   </div>
