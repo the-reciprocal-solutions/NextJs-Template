@@ -232,71 +232,97 @@ export const Clients3 = ()=>{
                   alt="Client Logo"
                 />
                 </span>
+                <span className="marquee-item2">
+                  <img
+                    src="assets/images/client-logos/3.png"
+                    alt="Client Logo"
+                  />
+                </span>
+                <span  className="marquee-item2">
+                  <img
+                    src="assets/images/client-logos/4.png"
+                    alt="Client Logo"
+                  />
+                </span>
+                <span  className="marquee-item2">
+                  <img
+                    src="assets/images/client-logos/5.png"
+                    alt="Client Logo"
+                  />
+                </span>
+                <span  className="marquee-item2">
+                <img
+                  src="assets/images/client-logos/2.png"
+                  alt="Client Logo"
+                />
+                </span>
+                <span className="marquee-item2">
+                  <img
+                    src="assets/images/client-logos/3.png"
+                    alt="Client Logo"
+                  />
+                </span>
+                <span  className="marquee-item2">
+                  <img
+                    src="assets/images/client-logos/4.png"
+                    alt="Client Logo"
+                  />
+                </span>
+                <span  className="marquee-item2">
+                  <img
+                    src="assets/images/client-logos/5.png"
+                    alt="Client Logo"
+                  />
+                </span>
+                <span  className="marquee-item2">
+                <img
+                  src="assets/images/client-logos/2.png"
+                  alt="Client Logo"
+                />
+                </span>
+                <span className="marquee-item2">
+                  <img
+                    src="assets/images/client-logos/3.png"
+                    alt="Client Logo"
+                  />
+                </span>
+                <span  className="marquee-item2">
+                  <img
+                    src="assets/images/client-logos/4.png"
+                    alt="Client Logo"
+                  />
+                </span>
+                <span  className="marquee-item2">
+                  <img
+                    src="assets/images/client-logos/5.png"
+                    alt="Client Logo"
+                  />
+                </span>
+                <span  className="marquee-item2">
+                <img
+                  src="assets/images/client-logos/2.png"
+                  alt="Client Logo"
+                />
+                </span>
+                <span className="marquee-item2">
+                  <img
+                    src="assets/images/client-logos/3.png"
+                    alt="Client Logo"
+                  />
+                </span>
+                <span  className="marquee-item2">
+                  <img
+                    src="assets/images/client-logos/4.png"
+                    alt="Client Logo"
+                  />
+                </span>
+                <span  className="marquee-item2">
+                  <img
+                    src="assets/images/client-logos/5.png"
+                    alt="Client Logo"
+                  />
+                </span>
               </span>
-              <div className="marquee-inner left">
-                <span className="marquee-item2">
-                <img
-                  src="assets/images/client-logos/3.png"
-                  alt="Client Logo"
-                />
-                </span>
-                <span  className="marquee-item2">
-                <img
-                  src="assets/images/client-logos/4.png"
-                  alt="Client Logo"
-                />
-                </span>
-                <span  className="marquee-item2">
-                <img
-                  src="assets/images/client-logos/5.png"
-                  alt="Client Logo"
-                />
-                </span>
-                <span  className="marquee-item2">
-                <img
-                  src="assets/images/client-logos/client-logo-two4.png"
-                  alt="Client Logo"
-                />
-                </span>
-                <span  className="marquee-item2">
-                <img
-                  src="assets/images/client-logos/client-logo-two5.png"
-                  alt="Client Logo"
-                />
-                </span>
-              </div>
-              <div className="marquee-inner left">
-                <span className="marquee-item2">
-                <img
-                  src="assets/images/client-logos/client-logo-two1.png"
-                  alt="Client Logo"
-                />
-                </span>
-                <span  className="marquee-item2">
-                <img
-                  src="assets/images/client-logos/client-logo-two2.png"
-                  alt="Client Logo"
-                />
-                </span>
-                <span  className="marquee-item2">
-                <img
-                  src="assets/images/client-logos/client-logo-two1.png"
-                  alt="Client Logo"
-                />
-                </span>
-                <span  className="marquee-item2">
-                <img
-                  src="assets/images/client-logos/client-logo-two4.png"
-                  alt="Client Logo"
-                />
-                </span>
-                <span  className="marquee-item2">
-                <img
-                  src="assets/images/client-logos/client-logo-two5.png"
-                  alt="Client Logo"
-                />
-                </span>
-              </div>
             </span>
           </div>
       </div>

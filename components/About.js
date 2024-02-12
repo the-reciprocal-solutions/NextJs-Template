@@ -40,13 +40,13 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-5">
+            <div className="col-lg-5 ">
               <div className="about-image-part wow fadeInUp delay-0-3s">
                 <img src="assets/images/about/about.jpg" alt="About Me" />
                 
-                <div className="dot-shape">
+                {/* <div className="dot-shape">
                   <img src="assets/images/shape/about-dot.png" alt="Shape" />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

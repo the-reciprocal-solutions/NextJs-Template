@@ -1,11 +1,7 @@
 import Link from "next/link";
 import Counter from "./Counter";
+import Image from 'react-bootstrap/Image';
 
-const counterData = [
-  { id: 1, text: "Years Of Experience", value: "13", valueType: "plus" },
-  { id: 2, text: "Project Complete", value: "8", valueType: "k-plus" },
-  { id: 3, text: "Client Satisfactions", value: "99", valueType: "percent" },
-];
 
 const Hero = () => {
   return (
@@ -77,12 +73,12 @@ export const Hero2 = () => {
             <div className="wow fadeIn delay-0-3s">
               <div className="image-container">
                 <img 
-                width={9000}
                 height={750}
                   src="https://www.toniandguyindia.com/wp-content/uploads/2018/11/legacy-bg.jpg?id=4236"
                   alt="Author"
+                  className="bg-image"
                 />
-                <div className={`text-overlay textOverlay ml-150`}>
+                <div className={`text-overlay ml-150`}>
                   <div className="col-lg-12 col-sm-7">
                     <div className="hero-content rmb-55 pb-60 wow fadeInUp delay-0-2s">
                       <span className="h2">Welcome to</span>
