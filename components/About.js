@@ -1,4 +1,5 @@
-import Counter from "./Counter";
+'use client'
+import Carousel from 'react-bootstrap/Carousel';
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
                 <div className="section-title mb-35 wow fadeInUp delay-0-2s">
                   <span className="sub-title mb-15">About Us</span>
                   <h2>
-                   <span>Essensuals by Toni & Guy</span><span></span> "Pioneers in the Industry"
+                   <span>Essensuals Nava India</span><br/>
                   </h2>
                   <p>
                     At Toni & Guy Essensuals, we believe in the power of individuality and personal style. Our expert stylists are not just professionals, they’re artisans who are passionate about crafting bespoke looks that truly reflect your personality.
@@ -41,13 +42,26 @@ const About = () => {
               </div>
             </div>
             <div className="col-lg-5 ">
-              <div className="about-image-part wow fadeInUp delay-0-3s">
-                <img src="assets/images/about/about.jpg" alt="About Me" />
-                
-                {/* <div className="dot-shape">
-                  <img src="assets/images/shape/about-dot.png" alt="Shape" />
-                </div> */}
-              </div>
+            <Carousel>
+              <Carousel.Item>
+                  <div className="about-image-part wow fadeInUp delay-0-3s">
+                    <img src="assets/images/about/about.jpg" alt="About Me" />
+                    
+                    {/* <div className="dot-shape">
+                      <img src="assets/images/shape/about-dot.png" alt="Shape" />
+                    </div> */}
+                  </div>
+              </Carousel.Item>
+              <Carousel.Item>
+                  <div className="about-image-part wow fadeInUp delay-0-3s">
+                    <img src="assets/images/about/1.jpg" alt="About Me" />
+                    
+                    {/* <div className="dot-shape">
+                      <img src="assets/images/shape/about-dot.png" alt="Shape" />
+                    </div> */}
+                  </div>
+              </Carousel.Item>
+            </Carousel>
             </div>
           </div>
         </div>
