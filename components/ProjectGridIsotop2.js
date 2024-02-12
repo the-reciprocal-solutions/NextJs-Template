@@ -43,6 +43,12 @@ const ProjectGridIsotop2 = () => {
     <Fragment>
       <ul className="project-filter filter-btns-one justify-content-center pb-35 wow fadeInUp delay-0-2s">
         <li
+          className={`c-pointer ${activeBtn("*")}`}
+          onClick={handleFilterKeyChange("*")}
+        >
+          Show All
+        </li>
+        <li
           className={`c-pointer ${activeBtn("hairdressing")}`}
           onClick={handleFilterKeyChange("hairdressing")}
         >
@@ -61,10 +67,16 @@ const ProjectGridIsotop2 = () => {
           Hand & Feet Care
         </li>
         <li
-          className={`c-pointer ${activeBtn("*")}`}
-          onClick={handleFilterKeyChange("*")}
+          className={`c-pointer ${activeBtn("hairandskin")}`}
+          onClick={handleFilterKeyChange("hairandskin")}
         >
-          Show All
+          Hair & Skin
+        </li>
+        <li
+          className={`c-pointer ${activeBtn("bodyspa")}`}
+          onClick={handleFilterKeyChange("bodyspa")}
+        >
+          Body Spa
         </li>
       </ul>
       <div className="row project-masonry-active">
@@ -263,6 +275,70 @@ const ProjectGridIsotop2 = () => {
             <div className="content">
               <h4>Gel polish</h4>
               <p>Achieve long-lasting color and shine with our Gel Polish services , providing durable and flawless results for your nails.</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-6 item hairandskin">
+          <div className="service-item wow fadeInUp delay-0-2s">
+            <div className="content">
+              <h4>Dandruff</h4>
+              <p> Say goodbye to flakes with our targeted dandruff treatment, restoring scalp health for smoother, flake-free hair.</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-6 item hairandskin">
+          <div className="service-item wow fadeInUp delay-0-2s">
+            <div className="content">
+              <h4>Hair Loss</h4>
+              <p>Combat hair loss and stimulate regrowth with our specialized haircare solutions tailored to your needs.</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-6 item hairandskin">
+          <div className="service-item wow fadeInUp delay-0-2s">
+            <div className="content">
+              <h4>Sensitive</h4>
+              <p> Soothe and calm sensitive skin with our gentle yet effective skincare products, providing relief and comfort.</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-6 item hairandskin">
+          <div className="service-item wow fadeInUp delay-0-2s">
+            <div className="content">
+              <h4>Volume</h4>
+              <p> Achieve luscious locks and added volume with our volumizing hair treatments, for hair that's full of life and body.</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-6 item hairandskin">
+          <div className="service-item wow fadeInUp delay-0-2s">
+            <div className="content">
+              <h4>Pigmentation</h4>
+              <p> Restore skin's natural radiance and even out tone with our pigmentation treatments, unveiling a brighter complexion.</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-6 item hairandskin">
+          <div className="service-item wow fadeInUp delay-0-2s">
+            <div className="content">
+              <h4>Acne Treatment</h4>
+              <p>Banish blemishes and breakouts with our targeted acne treatments, clearing skin for a smoother, clearer complexion.</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-6 item hairandskin">
+          <div className="service-item wow fadeInUp delay-0-2s">
+            <div className="content">
+              <h4>Under Eye</h4>
+              <p> Brighten and rejuvenate tired eyes with our under-eye treatments, reducing puffiness and dark circles for a refreshed look</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-6 item bodyspa">
+          <div className="service-item wow fadeInUp delay-0-2s">
+            <div className="content">
+              <h4>Body Spa</h4>
+              <p>Indulge in relaxation and rejuvenation with our luxurious body spa treatments, pampering your body and mind for total bliss.</p>
             </div>
           </div>
         </div>
