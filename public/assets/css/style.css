@@ -149,6 +149,12 @@ textarea,
   background-color: #fff;
   border-bottom: 2px solid rgba(41, 41, 41, 0.1);
 }
+
+.drop-down{
+  position: relative;
+  display: inline-block;
+}
+
 input::-webkit-input-placeholder,
 select::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder,
