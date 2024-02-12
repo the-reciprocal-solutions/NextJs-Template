@@ -4259,6 +4259,7 @@ h6,
   -webkit-transition: all 500ms ease;
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
+  margin-left: 10px;
 }
 @media only screen and (max-width: 991px) {
   .main-menu .navbar-collapse li a {
@@ -4772,9 +4773,9 @@ h6,
 }
 .hero-content .h2 {
   display: block;
-  font-weight: 400;
+  font-weight: 350;
   margin-bottom: 5px;
-  color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.56);
 }
 .hero-content h1 {
   margin-bottom: 25px;
@@ -8603,7 +8604,7 @@ blockquote .blockquote-footer:before {
   text-align: center;
   padding-left: 550px;
   padding-bottom: 10px;
-  padding-top: 100px;
+  padding-top: 120px;
   z-index: 1; 
 }
 
