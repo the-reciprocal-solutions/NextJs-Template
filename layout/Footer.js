@@ -40,10 +40,12 @@ const Footer1 = () => {
             </div>
             <div className="col-lg-3 col-md-7">
               <div className="footer-widget  wow fadeInUp delay-0-4s">
-                <h6 className="footer-title">Quick Link</h6>
-                <p>
-                As a leader in the salon and hair industry, we hold ourselves to the highest standard when it comes to providing quality services to our clients.
-                </p>
+                <h6 className="footer-title">Our Services</h6>
+                <ul>
+                  <li>Hair Dressing</li>
+                  <li>Beauty & Makeup</li>
+                  <li>Hand & Feet Care</li>
+                </ul>
               </div>
             </div>
             <div className="col-lg-3 col-md-7">
@@ -56,7 +58,7 @@ const Footer1 = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="#service">
+                  <Link legacyBehavior href="#services">
                   Service
                   </Link>
                 </li>
@@ -77,11 +79,6 @@ const Footer1 = () => {
                       Gallery
                     </Link>
                   </li>
-                  <li>
-                    <Link legacyBehavior href="contact">
-                      Contact
-                    </Link>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -90,7 +87,7 @@ const Footer1 = () => {
                 <h6 className="footer-title">Address</h6>
                 <ul>
                   <li>
-                    <i className="far fa-map-marker-alt" /> 1260 / 1-1 AVINASHI ROAD, NAVA INDIA ROAD, NEXT TO RELIANCE DIGITAL COIMBATORE - 641004
+                    <i className="far fa-map-marker-alt" /> 1260 / 1-1 Avinashi road, nava india road, next to reliance digital coimbatore - 641004
                   </li>
                   <li>
                     <i className="far fa-envelope" />{" "}
@@ -114,7 +111,7 @@ const Footer1 = () => {
                 <p>
                   Copyright @{date},{" "}
                   <Link legacyBehavior href="/">
-                    Essensuals Toni & Guy
+                    Essensuals by Toni & Guy
                   </Link>{" "}
                   All Rights Reserved
                 </p>
