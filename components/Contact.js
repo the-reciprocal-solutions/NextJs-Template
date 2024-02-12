@@ -1,4 +1,87 @@
 const Contact = () => {
+  const items = [
+     {
+            "id":1,
+            "title":"Advanced hair cut",
+        },
+        {
+            "id":2,
+            "title":"Highlights",
+        },
+        {
+            "id":3,
+            "title":"Global color ",
+        },
+        {
+            "id":4,
+            "title":"Keratin",
+
+        },
+        {
+            "id":5,
+            "title":"Botox",
+        },
+        {
+            "id":6,
+            "title":"Smoothening/Straightening",
+
+        },
+        {
+            "id":7,
+            "title":"Skin/Hair Treatment",
+
+        },
+        {
+            "id":8,
+            "title":"Hair spa (Wella plex)",
+
+        },
+        {
+            "id":9,
+            "title":"Threading / Detan",
+
+        },
+        {
+            "id":10,
+            "title":"Hydra facial",
+
+        },
+        {
+            "id":11,
+            "title":"Party makeup",
+        },
+        {
+            "id":12,
+            "title":"Pedicure/Manicure",
+
+        },
+        {
+            "id":13,
+            "title":"Hand polish / feet polish",
+
+        },
+        {
+            "id":14,
+            "title":"Heel peel treatment",
+
+        },
+        {
+            "id":15,
+            "title":"Nail Art",
+
+        },
+        {
+            "id":16,
+            "title":"Nail Extension",
+
+        },
+        {
+            "id":17,
+            "title":"Gel polish",
+
+        },
+  ]
+ 
   return (
     <section
       id="contact"
@@ -43,9 +126,6 @@ const Contact = () => {
                         required=""
                         data-error="Please enter your Name"
                       />
-                      <label htmlFor="name" className="for-icon">
-                        <i className="far fa-user" />
-                      </label>
                       <div className="help-block with-errors" />
                     </div>
                   </div>
@@ -58,13 +138,11 @@ const Contact = () => {
                         name="locality"
                         className="form-control"
                         defaultValue=""
-                        placeholder="locality"
+                        placeholder="Locality"
                         required=""
                         data-error="Please enter your locality"
                       />
-                      <label htmlFor="locality" className="for-icon">
-                        <i className="far fa-location" />
-                      </label>
+                   
                       <div className="help-block with-errors" />
                     </div>
                   </div>
@@ -81,26 +159,39 @@ const Contact = () => {
                         required=""
                         data-error="Please enter your Phone Number"
                       />
-                      <label htmlFor="phone_number" className="for-icon">
-                        <i className="far fa-phone" />
-                      </label>
+                     
                       <div className="help-block with-errors" />
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
                       <label htmlFor="service">Services</label>
-                      <input
+                       {/* <input
                         type="text"
                         id="service"
                         name="service"
                         className="form-control"
                         defaultValue=""
-                        placeholder="service"
+                        placeholder="Service"
                         required=""
                         data-error="Please enter your service"
-                      />
-                      
+                      /> */}
+                     <select 
+                      name="service" id="service" 
+                      className="form-control" 
+                      defaultValue={"DEFAULT" }
+                      required=""
+                      data-error="Please enter your service" 
+                      placeholder="Select a Service"
+                      >
+                      <option value="DEFAULT" disabled hidden>Select an Option</option>
+                        {items.map((e)=>(
+                        <option key={e.id} value={e.title} id="service" className="form-control-drop">{e.title}</option>
+                        ))}
+                      </select>
+                      <label htmlFor="service" className="for-icon" >
+                        <i className="fas fa-chevron-down"/>
+                      </label>
                       <div className="help-block with-errors" />
                     </div>
                   </div>
@@ -113,7 +204,7 @@ const Contact = () => {
                         name="time"
                         className="form-control"
                         defaultValue=""
-                        placeholder="time"
+                        placeholder="Time"
                         required=""
                         data-error="Please enter your time"
                       />
@@ -132,8 +223,7 @@ const Contact = () => {
                         placeholder="date"
                         required=""
                         data-error="Please enter your Date"
-                      />
-                      
+                      />                     
                       <div className="help-block with-errors" />
                     </div>
                   </div>
