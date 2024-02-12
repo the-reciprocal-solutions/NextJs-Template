@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import { Nav, Tab } from "react-bootstrap";
 import Slider from "react-slick";
 import { Component } from "react";
 import { noxfolioSlider } from "@/utility/sliderProps";
