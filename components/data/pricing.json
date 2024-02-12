@@ -37,6 +37,12 @@
             "desc":" Achieve sleek, polished look, taming frizz effortlessly."
         },
         {
+            "id":7,
+            "title":"Skin/Hair Treatment",
+            "price":1200,
+            "desc":" Address pigmentation, acne, dandruff, hair loss at TONI&GUY Essensuals."
+        },
+        {
             "id":8,
             "title":"Hair spa (Wella plex)",
             "price":700,
@@ -58,43 +64,43 @@
             "id":13,
             "title":"Party makeup",
             "price":5000,
-            "desc":"At TONI&GUY Essensuals"
+            "desc":"Elevate your look with our expert services."
         },
         {
             "id":14,
             "title":"Pedicure/Manicure",
             "price":450,
-            "desc":"At TONI&GUY Essensuals"
+            "desc":" Indulge in perfection at TONI&GUY Essensuals."
         },
         {
             "id":15,
             "title":"Hand polish / feet polish",
             "price":90 ,
-            "desc":"At TONI&GUY Essensuals"
+            "desc":"Get perfectly polished nails with expert services."
         },
         {
             "id":16,
             "title":"Heel peel treatment",
             "price":1000,
-            "desc":"At TONI&GUY Essensuals"
+            "desc":"Ultimate foot care for healthier-looking feet."
         },
         {
             "id":17,
             "title":"Nail Art",
             "price":130,
-            "desc":"At TONI&GUY Essensuals"
+            "desc":"Express unique style with stunning designs at TONI&GUY Essensuals."
         },
         {
             "id":18,
             "title":"Nail Extension",
             "price":2500,
-            "desc":"At TONI&GUY Essensuals"
+            "desc":"Transform nails for glamorous, polished look."
         },
         {
             "id":19,
             "title":"Gel polish",
             "price":90,
-            "desc":"At TONI&GUY Essensuals"
+            "desc":" Long-lasting color, shine for flawless nails at TONI&GUY Essensuals."
         }
     ]
 }
