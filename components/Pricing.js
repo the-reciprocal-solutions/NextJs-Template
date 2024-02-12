@@ -28,8 +28,8 @@ export default class Pricing extends Component{
             ref={(c) => (this.slider = c)}
             {...noxfolioSlider.pricing}
             >
-              {data.pricing.map((e)=>(
-              <div className="col-lg-4 col-md-6 ">
+              {data.pricing.map((e)=>( 
+              <div key={e.id} className="col-lg-4 col-md-6 ">
                 <div className="pricing-item wow fadeInUp delay-0-2s">
                   <div className="pricing-header">
                     <h4 className="title">{e.title}</h4>
@@ -42,7 +42,7 @@ export default class Pricing extends Component{
                     <p>
                       {e.desc}
                     </p>
-                    <Link legacyBehavior href="/contact">
+                    <Link legacyBehavior href="#contact">
                       <a className="theme-btn">
                         Choose Package <i className="far fa-angle-right" />
                       </a>
