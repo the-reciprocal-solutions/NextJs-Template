@@ -2,7 +2,7 @@
 
 import { Fragment, useEffect, useRef, useState } from "react";
 import PageBanner from "./PageBanner";
-import { Gallery } from "./Gallery";
+
 const ProjectMasonryIsotop = () => {
   // Isotope
   const isotope = useRef();
