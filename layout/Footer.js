@@ -99,6 +99,20 @@ const Footer1 = () => {
                   </li>
                 </ul>
               </div>
+            <div className="col-xl- col-lg-5">
+            <div className="footer-widget widget_social text-center text-lg-end wow fadeInUp delay-0-4s">
+              <div className="social-flow">
+                <div className="social-style-one">
+                  <a href="#">
+                    <i className="fab fa-facebook-f" />
+                  </a>
+                  <a href="#">
+                    <i className="fab fa-instagram" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
             </div>
           </div>
         </div>
