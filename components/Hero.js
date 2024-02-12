@@ -89,7 +89,7 @@ export const Hero2 = () => {
                       <h1>
                         Toni & Guy Essensuals!
                       </h1>
-                      <p>your ultimate beauty destination. From hair to toe, let us unleash your glamour with expertise and flair.</p>
+                      <p>Essensuals navaindia is the only salon with car parking space and it is the largest salon in Coimbatore</p>
                       <div className="hero-btns">
                         {/* <Link legacyBehavior href="/contact">
                           <a className="theme-btn">
