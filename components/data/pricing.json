@@ -40,13 +40,13 @@
             "id":7,
             "title":"Skin/Hair Treatment",
             "price":1200,
-            "desc":" Address pigmentation, acne, dandruff, hair loss at TONI&GUY Essensuals."
+            "desc":" Address pigmentation, acne, dandruff, hair loss."
         },
         {
             "id":8,
             "title":"Alchemy Hair Spa ",
             "price":700,
-            "desc":"Alchemy Hair Spa (Wella plex treatment) locks for gorgeous ,healthy hair."
+            "desc":"Also a Wella plex treatment locks for gorgeous ,healthy hair."
         },
         {
             "id":9,
