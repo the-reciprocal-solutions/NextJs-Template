@@ -1,87 +1,87 @@
-const Contact = () => {
+const Contact = (props) => {
   const items = [
-     {
-            "id":1,
-            "title":"Advanced hair cut",
-        },
-        {
-            "id":2,
-            "title":"Highlights",
-        },
-        {
-            "id":3,
-            "title":"Global color ",
-        },
-        {
-            "id":4,
-            "title":"Keratin",
+    {
+      "id": 1,
+      "title": "Advanced hair cut",
+    },
+    {
+      "id": 2,
+      "title": "Highlights",
+    },
+    {
+      "id": 3,
+      "title": "Global color ",
+    },
+    {
+      "id": 4,
+      "title": "Keratin",
 
-        },
-        {
-            "id":5,
-            "title":"Botox",
-        },
-        {
-            "id":6,
-            "title":"Smoothening/Straightening",
+    },
+    {
+      "id": 5,
+      "title": "Botox",
+    },
+    {
+      "id": 6,
+      "title": "Smoothening/Straightening",
 
-        },
-        {
-            "id":7,
-            "title":"Skin/Hair Treatment",
+    },
+    {
+      "id": 7,
+      "title": "Skin/Hair Treatment",
 
-        },
-        {
-            "id":8,
-            "title":"Hair spa (Wella plex)",
+    },
+    {
+      "id": 8,
+      "title": "Hair spa (Wella plex)",
 
-        },
-        {
-            "id":9,
-            "title":"Threading / Detan",
+    },
+    {
+      "id": 9,
+      "title": "Threading / Detan",
 
-        },
-        {
-            "id":10,
-            "title":"Hydra facial",
+    },
+    {
+      "id": 10,
+      "title": "Hydra facial",
 
-        },
-        {
-            "id":11,
-            "title":"Party makeup",
-        },
-        {
-            "id":12,
-            "title":"Pedicure/Manicure",
+    },
+    {
+      "id": 11,
+      "title": "Party makeup",
+    },
+    {
+      "id": 12,
+      "title": "Pedicure/Manicure",
 
-        },
-        {
-            "id":13,
-            "title":"Hand polish / feet polish",
+    },
+    {
+      "id": 13,
+      "title": "Hand polish / feet polish",
 
-        },
-        {
-            "id":14,
-            "title":"Heel peel treatment",
+    },
+    {
+      "id": 14,
+      "title": "Heel peel treatment",
 
-        },
-        {
-            "id":15,
-            "title":"Nail Art",
+    },
+    {
+      "id": 15,
+      "title": "Nail Art",
 
-        },
-        {
-            "id":16,
-            "title":"Nail Extension",
+    },
+    {
+      "id": 16,
+      "title": "Nail Extension",
 
-        },
-        {
-            "id":17,
-            "title":"Gel polish",
+    },
+    {
+      "id": 17,
+      "title": "Gel polish",
 
-        },
+    },
   ]
- 
+
   return (
     <section
       id="contact"
@@ -97,10 +97,10 @@ const Contact = () => {
                   Let’s Talk For your <span>Appointment</span>
                 </h2>
                 <p>
-                We strive for the perfect cut, colour and style every time to suit each client's personality and needs while upholding the coveted TONI&GUY signature.
+                  We strive for the perfect cut, colour and style every time to suit each client's personality and needs while upholding the coveted TONI&GUY signature.
                 </p>
               </div>
-              
+
             </div>
           </div>
           <div className="col-lg-8">
@@ -142,7 +142,7 @@ const Contact = () => {
                         required=""
                         data-error="Please enter your locality"
                       />
-                   
+
                       <div className="help-block with-errors" />
                     </div>
                   </div>
@@ -159,38 +159,29 @@ const Contact = () => {
                         required=""
                         data-error="Please enter your Phone Number"
                       />
-                     
+
                       <div className="help-block with-errors" />
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
                       <label htmlFor="service">Services</label>
-                       {/* <input
-                        type="text"
-                        id="service"
-                        name="service"
+                      <select
+                        name="service" id="service"
                         className="form-control"
-                        defaultValue=""
-                        placeholder="Service"
+                        defaultValue={"DEFAULT"}
+                        value={props.pricing ?? "DEFAULT"}
                         required=""
                         data-error="Please enter your service"
-                      /> */}
-                     <select 
-                      name="service" id="service" 
-                      className="form-control" 
-                      defaultValue={"DEFAULT" }
-                      required=""
-                      data-error="Please enter your service" 
-                      placeholder="Select a Service"
+                        placeholder="Select a Service"
                       >
-                      <option value="DEFAULT" disabled hidden>Select an Option</option>
-                        {items.map((e)=>(
-                        <option key={e.id} value={e.title} id="service" className="form-control-drop">{e.title}</option>
+                        <option value="DEFAULT" disabled hidden>Select an Option</option>
+                        {items.map((e) => (
+                          <option key={e.id} value={e.title} id="service" className="form-control-drop">{e.title}</option>
                         ))}
                       </select>
                       <label htmlFor="service" className="for-icon" >
-                        <i className="fas fa-chevron-down"/>
+                        <i className="fas fa-chevron-down" />
                       </label>
                       <div className="help-block with-errors" />
                     </div>
@@ -208,7 +199,7 @@ const Contact = () => {
                         required=""
                         data-error="Please enter your time"
                       />
-                      
+
                       <div className="help-block with-errors" />
                     </div>
                   </div><div className="col-md-6">
@@ -223,11 +214,11 @@ const Contact = () => {
                         placeholder="date"
                         required=""
                         data-error="Please enter your Date"
-                      />                     
+                      />
                       <div className="help-block with-errors" />
                     </div>
                   </div>
-                
+
                   <div className="col-md-12">
                     <div className="form-group mb-0">
                       <button type="submit" className="theme-btn">

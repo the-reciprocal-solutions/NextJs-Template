@@ -24,3 +24,14 @@ html {
 .project-item.style-four {
   position: relative;
 }
+
+.image-container {
+  @media (max-width: 600px) {
+    padding-top: 80px;
+  }
+}
+#main-nav {
+  @media (max-width: 600px) {
+    background-color: #b09c6d;
+  }
+}

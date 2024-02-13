@@ -77,9 +77,8 @@ const Header1 = ({ onePageMenu }) => {
                   </button>
                 </div>
                 <div
-                  className={`navbar-collapse collapse clearfix ${
-                    toggle ? "show" : ""
-                  }`}
+                  className={`navbar-collapse collapse clearfix ${toggle ? "show" : ""
+                    }`}
                 >
                   {onePageMenu ? <OnePageMenu /> : <MultiMenu />}
                 </div>
@@ -121,7 +120,7 @@ const Header2 = ({ onePageMenu }) => {
     <header className="main-header header-two menu-absolute">
       {/*Header-Upper*/}
       <div className="header-upper">
-        <div className="container container-1620 clearfix">
+        <div id="main-nav" className="container container-1620 clearfix">
           <div className="header-inner rel d-flex align-items-center col-md-11">
             <div className="logo-outer">
               <div className="logo">
@@ -144,7 +143,7 @@ const Header2 = ({ onePageMenu }) => {
                     <Link legacyBehavior href="/">
                       <a>
                         <img
-                          src="assets/images/logos/Logo2.jpg"
+                          src="assets/images/logos/Toni___Guy_Logo_removebg.png"
                           alt="Logo"
                           title="Logo"
                         />
@@ -165,9 +164,8 @@ const Header2 = ({ onePageMenu }) => {
                   </button>
                 </div>
                 <div
-                  className={`navbar-collapse collapse clearfix ${
-                    toggle ? "show" : ""
-                  }`}
+                  className={`navbar-collapse collapse clearfix ${toggle ? "show" : ""
+                    }`}
                 >
                   {onePageMenu ? (
                     <ul className="navigation onepage clearfix">
