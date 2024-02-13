@@ -8582,14 +8582,14 @@ blockquote .blockquote-footer:before {
     justify-content: center;
   }
 }
-
 .image-container {
   position: relative;
   background-position: center;
 }
 
 .image-container img {
-  width:1600px
+  width:100%;
+  margin: 0,auto;
 }
 
 .text-overlay {
@@ -8632,7 +8632,7 @@ blockquote .blockquote-footer:before {
   }
   .text-overlay .h2{
     padding-top: 10px;
- font-size: xx-large;
+    font-size: xx-large;
   }
   .text-overlay p{
     padding-top: 20px;
@@ -8640,10 +8640,11 @@ blockquote .blockquote-footer:before {
   }
 
   .image-container img {
-    width:450px;
+    width:100%;
     height:400px
   }
 }
+
 @media only screen and (max-width:767px){
   .widget_logo{
     margin-top: 10px;
