@@ -25,13 +25,24 @@ html {
   position: relative;
 }
 
+
+
 .image-container {
   @media (max-width: 600px) {
     padding-top: 100px;
   }
 }
-#main-nav {
+.image-container img{
   @media (max-width: 600px) {
+    height:400px
+  }
+}
+
+
+#main-nav {
+  @media (max-width: 950px) {
     background-color: #b09c6d;
   }
 }
+
+

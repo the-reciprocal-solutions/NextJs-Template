@@ -8582,15 +8582,14 @@ blockquote .blockquote-footer:before {
     justify-content: center;
   }
 }
-.image-container {
-  position: relative;
-  background-position: center;
-}
+
 
 .image-container img {
   width:100%;
   margin: 0,auto;
 }
+
+
 
 .text-overlay {
   position: absolute;
@@ -8644,6 +8643,75 @@ blockquote .blockquote-footer:before {
     height:400px
   }
 }
+/* @media only screen and (max-width:1200px){
+  .text-overlay{
+    font-size:medium;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .text-overlay h1{
+  height: 70px;
+  width:100%;
+  font-size:40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  }
+  .text-overlay .h2{
+    padding-top: 10px;
+    font-size: xx-large;
+  }
+  .text-overlay p{
+    padding-top: 20px;
+    
+  }
+
+  .image-container img {
+    width:100%;
+    height:600px
+  }
+} */
+@media only screen and (max-width:1200px){
+  .text-overlay{
+    font-size:medium;
+    padding-left: 50px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .text-overlay h1{
+  height: 70px;
+  width:100%;
+  font-size:40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  }
+  .text-overlay .h2{
+    padding-top: 10px;
+    font-size: xx-large;
+  }
+  .text-overlay p{
+    padding-top: 20px;
+    
+  }
+
+  .image-container img {
+    width:100%;
+    height:600px
+  }
+  .main-menu .mobile-logo {
+    max-width: 200px;
+  }
+}
 
 @media only screen and (max-width:767px){
   .widget_logo{
@@ -8665,4 +8733,42 @@ blockquote .blockquote-footer:before {
 
 .heroContainer {
   position: relative;
+}
+
+.float1 {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  bottom: 50px;
+  right: 20px;
+  background-color: #4498ff;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.45);
+  z-index: 100;
+}
+
+.my-float1 {
+  margin-top: 12px;
+}
+
+.float{
+  position:fixed;
+  width:55px;
+  height:55px;
+  bottom: 50px;
+  left:25px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.45);
+  z-index:100;
+}
+
+.my-float{
+  margin-top:12px;
 }
