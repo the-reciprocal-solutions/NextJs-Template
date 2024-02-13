@@ -34,7 +34,7 @@ html {
 }
 .image-container img{
   @media (max-width: 600px) {
-    height:400px
+    height:400px;
   }
 }
 

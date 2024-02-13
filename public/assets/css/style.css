@@ -4796,6 +4796,13 @@ h6,
 @media only screen and (max-width: 767px) {
   .hero-content h1 {
     font-size: 45px;
+    padding-right: 30px;
+  }
+  .hero-content p {
+    padding-right: 35px;
+  }
+  .hero-content .h2 {
+    padding-right: 35px;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -8614,7 +8621,7 @@ blockquote .blockquote-footer:before {
   .text-overlay{
     font-size:medium;
     padding-left: 10px;
-    padding-right: 5px;
+    padding-right: 10px;
     padding-bottom: 10px;
     padding-top: 200px;
     align-items: center;
