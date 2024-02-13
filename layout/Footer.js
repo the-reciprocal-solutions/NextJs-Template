@@ -79,6 +79,11 @@ const Footer1 = () => {
                       Gallery
                     </Link>
                   </li>
+                  <li>
+                    <Link legacyBehavior href="/privacy">
+                      Privacy
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>

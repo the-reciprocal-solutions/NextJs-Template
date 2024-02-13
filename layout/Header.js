@@ -170,28 +170,28 @@ const Header2 = ({ onePageMenu }) => {
                   {onePageMenu ? (
                     <ul className="navigation onepage clearfix">
                       <li>
-                        <a href="#home">Home</a>
+                        <a href="/#home">Home</a>
                       </li>
                       <li>
-                        <a href="#about">about</a>
+                        <a href="/#about">about</a>
                       </li>
                       {/* <li>
                         <a href="#resume">Resume</a>
                       </li> */}
                       <li>
-                        <a href="#projects">services</a>
+                        <a href="/#projects">services</a>
                       </li>
                       <li>
-                        <a href="#pricing">Pricing</a>
+                        <a href="/#pricing">Pricing</a>
                       </li>
                       <li>
-                        <a href="#gallery">Gallery</a>
+                        <a href="/#gallery">Gallery</a>
                       </li>
                       <li>
-                        <a href="#testimonials">Testimonials</a>
+                        <a href="/#testimonials">Testimonials</a>
                       </li>
                       <li>
-                        <a href="#contact">Contact</a>
+                        <a href="/#contact">Contact</a>
                       </li>
                     </ul>
                   ) : (
