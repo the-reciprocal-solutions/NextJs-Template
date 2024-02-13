@@ -122,7 +122,7 @@ const Contact = (props) => {
                         name="name"
                         className="form-control"
                         defaultValue=""
-                        placeholder="Richard D. Hammond"
+                        placeholder="Name"
                         required=""
                         data-error="Please enter your Name"
                       />

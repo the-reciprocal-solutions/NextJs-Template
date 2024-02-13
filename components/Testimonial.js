@@ -24,7 +24,7 @@ export default class Testimonial extends Component {
                 <div className="testimonials-content-part rel z-2 rmb-55 wow fadeInUp delay-0-2s">
                   <div className="section-title mb-40">
                     <span className="sub-title mb-15">
-                      Clients Testimonials
+                      {/* Clients Testimonials */}
                     </span>
                     <h2>
                       Clients <span>Feedback</span>

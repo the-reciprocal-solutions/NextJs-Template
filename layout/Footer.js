@@ -128,7 +128,7 @@ const Footer1 = () => {
             <div className="col-lg-6">
               <div className="copyright-text">
                 <p>
-                  Copyright @{date},{" "}
+                  Copyright @ {date},{" "}
                   <Link legacyBehavior href="/">
                     Essensuals by Toni & Guy
                   </Link>{" "}
@@ -138,7 +138,7 @@ const Footer1 = () => {
             </div>
             <div className="col-lg-6 text-lg-end">
             <p>
-                  Developed by 
+                  Designed by 
                   <Link legacyBehavior href="https://www.TheReciprocalSolutions.com">
                   <span> The Reciprocal Solutions</span>  
                   </Link>{" "}
