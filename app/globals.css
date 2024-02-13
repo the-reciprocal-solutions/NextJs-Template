@@ -27,7 +27,7 @@ html {
 
 .image-container {
   @media (max-width: 600px) {
-    padding-top: 80px;
+    padding-top: 100px;
   }
 }
 #main-nav {

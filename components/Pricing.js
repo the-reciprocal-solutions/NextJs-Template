@@ -25,8 +25,8 @@ const Pricing = (props) => {
         </div>
         <Slider {...noxfolioSlider.pricing}>
           {data.pricing.map((e) => (
-            <div className="row justify-content-center">
-              <div key={e.id} className="col-lg-12 col-md-6 col-sm-1 ">
+            <div key={e.id} className="row justify-content-center">
+              <div className="col-lg-12 col-md-6 col-sm-1 ">
                 <div className="pricing-item wow fadeInUp delay-0-2s">
                   <div className="pricing-header">
                     <h4 className="title">{e.title}</h4>
