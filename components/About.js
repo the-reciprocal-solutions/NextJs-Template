@@ -41,11 +41,11 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-5 ">
+            <div className="container col-lg-5">
             <Carousel>
               <Carousel.Item>
-                  <div className="about-image-part wow fadeInUp delay-0-3s">
-                    <img src="assets/images/about/about.jpg" alt="About Me" />
+                  <div className=" wow fadeInUp delay-0-3s">
+                    <img src="assets/images/about/Store1.jpg" alt="About Me" />
                     
                     {/* <div className="dot-shape">
                       <img src="assets/images/shape/about-dot.png" alt="Shape" />
@@ -53,8 +53,8 @@ const About = () => {
                   </div>
               </Carousel.Item>
               <Carousel.Item>
-                  <div className="about-image-part wow fadeInUp delay-0-3s">
-                    <img src="assets/images/about/1.jpg" alt="About Me" />
+                  <div className=" wow fadeInUp delay-0-3s">
+                    <img src="assets/images/about/Store3.jpg" alt="About Me" />
                     
                     {/* <div className="dot-shape">
                       <img src="assets/images/shape/about-dot.png" alt="Shape" />
