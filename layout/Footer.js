@@ -103,10 +103,10 @@ const Footer1 = () => {
             <div className="footer-widget widget_social text-center text-lg-end wow fadeInUp delay-0-4s">
               <div className="social-flow">
                 <div className="social-style-one">
-                  <a href="#">
+                  <a href="https://www.facebook.com/profile.php?id=61552091305314">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/essensuals.navaindia/">
                     <i className="fab fa-instagram" />
                   </a>
                 </div>
