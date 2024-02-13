@@ -15,7 +15,7 @@ import React from "react";
 
 
 export default function Home() {
-  const [pricing, setPricing] = React.useState("");
+  const [pricing, setPricing] = React.useState(null);
   return (
     <NoxfolioLayout header={2} footer={2} onePageMenu={true}>
       <Hero2 />
