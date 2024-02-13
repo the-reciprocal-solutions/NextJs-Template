@@ -7008,6 +7008,9 @@ h6,
     padding-left: 25px;
     padding-right: 25px;
   }
+  .pricing-item{
+    margin-left: 25px;
+  }
 }
 .pricing-item .pricing-header .save-percent {
   margin-bottom: 40px;
