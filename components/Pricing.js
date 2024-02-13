@@ -22,13 +22,13 @@ export default class Pricing extends Component{
                 </div>
               </div>
             </div>  
-            <div className="row justify-content-center">
             <Slider 
             ref={(c) => (this.slider = c)}
             {...noxfolioSlider.pricing}
             >
               {data.pricing.map((e)=>( 
-              <div key={e.id} className="col-lg-4 col-md-6 ">
+            <div className="row justify-content-center">
+              <div key={e.id} className="col-lg-12 col-md-6 col-sm-1 ">
                 <div className="pricing-item wow fadeInUp delay-0-2s">
                   <div className="pricing-header">
                     <h4 className="title">{e.title}</h4>
@@ -49,9 +49,9 @@ export default class Pricing extends Component{
                   </div>
                 </div>
               </div>
+          </div>
               ))}
             </Slider>    
-          </div>
           </div>
           <div className="bg-lines">
             <span />
