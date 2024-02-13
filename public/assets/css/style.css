@@ -6993,7 +6993,7 @@ h6,
 /*******************************************************/
 .pricing-item {
   padding: 10px;
-  border-radius: 0px;
+  border-radius: 16px;
   margin-bottom: 30px;
   background: var(--lighter-color);
 }
@@ -8637,10 +8637,9 @@ blockquote .blockquote-footer:before {
   }
 
   .image-container img {
-    width:400px;
+    width:450px;
     height:400px
   }
-  
 }
 
 .heroContainer {
