@@ -49,7 +49,7 @@ const Footer1 = () => {
               </div>
             </div>
             <div className="col-lg-3 col-md-7">
-              <div className="footer-widget  wow fadeInUp delay-0-4s">
+              <div className="footer-widget   wow fadeInUp delay-0-4s">
                 <h6 className="footer-title">Quick Link</h6>
                 <ul>
                 <li>
@@ -86,14 +86,14 @@ const Footer1 = () => {
               <div className="footer-widget widget_contact_info wow fadeInUp delay-0-6s">
                 <h6 className="footer-title">Address</h6>
                 <ul>
-                  <li>
-                    <i className="far fa-map-marker-alt" /> 1260 / 1-1 Avinashi road, nava india road, next to reliance digital coimbatore - 641004
+                  <li className="address">
+                    <i className="far fa-map-marker-alt" />1260 / 1-1 Avinashi road, nava india road, next to reliance digital coimbatore - 641004
                   </li>
-                  <li>
+                  <li className="address">
                     <i className="far fa-envelope" />{" "}
                     <a href="mailto:navaindia.essensuals@gmail.com">navaindia.essensuals@gmail.com</a>
                   </li>
-                  <li>
+                  <li className="address">
                     <i className="far fa-phone" />{" "}
                     <a href="callto:+919514708880">+91 95147 08880</a>
                   </li>

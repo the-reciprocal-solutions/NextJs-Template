@@ -8644,6 +8644,23 @@ blockquote .blockquote-footer:before {
     height:400px
   }
 }
+@media only screen and (max-width:767px){
+  .widget_logo{
+    margin-top: 10px;
+    padding-left: 80px;
+   
+  }
+  .footer-title{
+    text-align: center;
+  }
+  ul{
+    text-align: center;
+  }
+  .address{
+    text-align: left;
+    margin-left: 10px;
+  }
+}
 
 .heroContainer {
   position: relative;
