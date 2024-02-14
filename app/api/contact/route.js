@@ -30,11 +30,9 @@ export const POST =async(req) =>{
       if(err)
         console.log(err)
       else
-      res.redirect("/contact#200");
-        console.log("Email sent: " + info)
-        
+      return Response.json({msg:"email Sent"}) 
     })
-    return Response.json({msg:"email Sent"})
+   
   }
 
   // user: 'mailtrscbe@gmail.com',
