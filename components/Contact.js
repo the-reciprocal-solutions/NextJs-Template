@@ -1,3 +1,5 @@
+
+import { useState } from "react";
 const Contact = (props) => {
   const items = [
     {
@@ -81,6 +83,11 @@ const Contact = (props) => {
 
     },
   ]
+  const [name, setName] = useState('')
+  const [locality, setLocality] = useState('')
+  const [phone, setPhone] = useState('')
+  const [time, setTime] = useState('')
+  const [date, setDate] = useState('')
 
   return (
     <section
@@ -109,8 +116,39 @@ const Contact = (props) => {
                 id="contactForm"
                 className="contactForm"
                 name="contactForm"
-                action=""
                 method="post"
+                onSubmit={(e)=>{
+                  console.log(e)
+                  e.preventDefault()
+                  let data = {
+                    name,
+                    locality,
+                    phone,
+                    service: props.pricing,
+                    time,
+                    date
+                  }
+                  console.log('fetch');
+                  fetch('/api/contact', {
+                    method: 'POST',
+                    headers: {
+                      'Accept': 'application/json, text/plain, */*',
+                      'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                  }).then((res) => {
+                    console.log('Response received')
+                    if (res.status === 200) {
+                      setName('')
+                      setLocality('')
+                      setPhone('')
+                      setService('')
+                      setTime('')
+                      setDate('')
+                      console.log('Response succeeded!')
+                    }
+                  })
+                }} 
               >
                 <div className="row">
                   <div className="col-md-6">
@@ -121,9 +159,10 @@ const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        defaultValue=""
+                        value={name}
+                        onChange={(e)=>{setName(e.target.value)}}
                         placeholder="Name"
-                        required=""
+                        required="true"
                         data-error="Please enter your Name"
                       />
                       <div className="help-block with-errors" />
@@ -137,9 +176,10 @@ const Contact = (props) => {
                         id="locality"
                         name="locality"
                         className="form-control"
-                        defaultValue=""
+                        value={locality}
+                        onChange={(e)=>{setLocality(e.target.value)}}
                         placeholder="Locality"
-                        required=""
+                        required="true"
                         data-error="Please enter your locality"
                       />
 
@@ -154,9 +194,10 @@ const Contact = (props) => {
                         id="phone_number"
                         name="phone_number"
                         className="form-control"
-                        defaultValue=""
+                        value={phone}
+                        onChange={(e)=>{setPhone(e.target.value)}}
                         placeholder="+91 98765 43210"
-                        required=""
+                        required="true"
                         data-error="Please enter your Phone Number"
                       />
 
@@ -169,8 +210,12 @@ const Contact = (props) => {
                       <select
                         name="service" id="service"
                         className="form-control"
-                        value={props.pricing ?? "DEFAULT"}
-                        required=""
+                        value={props.pricing}
+                        onChange={(e)=>{
+                          console.log(e.target.value)
+                          props.setPricing(e.target.value)
+                        }}                        
+                        required="true"
                         data-error="Please enter your service"
                         placeholder="Select a Service"
                       >
@@ -190,10 +235,11 @@ const Contact = (props) => {
                       <label htmlFor="subject">Time</label>
                       <input
                         type="time"
-                        id="rime"
+                        id="time"
                         name="time"
                         className="form-control"
-                        defaultValue=""
+                        value={time}
+                        onChange={(e)=>{setTime(e.target.value)}}
                         placeholder="Time"
                         required=""
                         data-error="Please enter your time"
@@ -209,7 +255,8 @@ const Contact = (props) => {
                         id="date"
                         name="date"
                         className="form-control"
-                        defaultValue=""
+                        value={date}
+                        onChange={(e)=>{setDate(e.target.value)}}
                         placeholder="date"
                         required=""
                         data-error="Please enter your Date"
