@@ -73,7 +73,7 @@ export const Hero2 = () => {
               <div className="image-container">
                 <img 
                 height={750}
-                  src="https://www.toniandguyindia.com/wp-content/uploads/2018/11/legacy-bg.jpg?id=4236"
+                  src="assets/images/hero/legacy.jpg"
                   alt="Author"
                   className="bg-image"
                 />
@@ -82,7 +82,7 @@ export const Hero2 = () => {
                     <div className="hero-content rmb-55 pb-60 wow fadeInUp delay-0-2s">
                       <span className="h2"><strong>Welcome to</strong></span>
                       <h1>
-                        Toni & Guy Essensuals!
+                        <b>TONY&GUY</b> <br />Essensuals!
                       </h1>
                       <p>Essensuals navaindia is the one and only salon with <strong>CAR PARKING SPACE</strong> and it is the largest salon in Coimbatore</p>
                       <div className="hero-btns">
