@@ -26,12 +26,15 @@ export const POST =async(req) =>{
       Time:${body.time}<br>
       Date:${body.date}<br>`
     }
-    transporter.sendMail(mailData, function (err, info) {
-      if(err)
-        console.log(err)
-      else
-      return Response.json({msg:"email Sent"}) 
+    await new Promise(r=>{
+      transporter.sendMail(mailData, function (err, info) {
+        if(err)
+          console.log(err)
+        else
+          r()
+      })
     })
+    return Response.json({msg:"email Sent"}) 
    
   }
 
