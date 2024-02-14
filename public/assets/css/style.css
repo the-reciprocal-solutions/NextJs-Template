@@ -845,7 +845,7 @@ a.theme-btn.style-three {
 /*** Scroll Top style ***/
 .scroll-top {
   position: fixed;
-  bottom: 25px;
+  bottom: 1px;
   right: 0;
   width: 40px;
   height: 40px;
@@ -6138,7 +6138,7 @@ h6,
   background: #070707;
   border-color: var(--primary-color);
 }
-.form-style-one .form-group .nice-select:focus::-webkit-input-placeholder,
+/* .form-style-one .form-group .nice-select:focus::-webkit-input-placeholder,
 .form-style-one .form-group .form-control:focus::-webkit-input-placeholder {
   color: white;
 }
@@ -6157,7 +6157,7 @@ h6,
 .form-style-one .form-group .nice-select:focus ~ .for-icon,
 .form-style-one .form-group .form-control:focus ~ .for-icon {
   color: white;
-}
+} */
 .form-style-one .form-group .nice-select::-webkit-input-placeholder,
 .form-style-one .form-group .form-control::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.2);
@@ -6868,7 +6868,8 @@ h6,
 
 .marquee-item2 {
   margin-top: 10px;
-  /* padding-left: 100px; */
+  padding-left: -100px;
+  padding-right: 0px;
 }
 .marquee-item2 i {
   margin-left: 30px;
@@ -8747,7 +8748,7 @@ blockquote .blockquote-footer:before {
   position: fixed;
   width: 55px;
   height: 55px;
-  bottom: 50px;
+  bottom: 70px;
   right: 20px;
   background-color: #4498ff;
   color: #FFF;
@@ -8766,7 +8767,7 @@ blockquote .blockquote-footer:before {
   position:fixed;
   width:55px;
   height:55px;
-  bottom: 50px;
+  bottom: 70px;
   left:25px;
   background-color:#25d366;
   color:#FFF;
