@@ -243,6 +243,7 @@ const Contact = (props) => {
                         placeholder="Time"
                         required=""
                         data-error="Please enter your time"
+                        style={{colorScheme:"dark"}}
                       />
 
                       <div className="help-block with-errors" />
@@ -260,6 +261,7 @@ const Contact = (props) => {
                         placeholder="date"
                         required=""
                         data-error="Please enter your Date"
+                        style={{colorScheme:"dark"}}
                       />
                       <div className="help-block with-errors" />
                     </div>
