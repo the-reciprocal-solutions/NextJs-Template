@@ -15,11 +15,11 @@ import React from "react";
 
 
 export default function Home() {
-  const [pricing, setPricing] = React.useState(null);
+  const [pricing, setPricing] = React.useState("DEFAULT");
   return (
     <NoxfolioLayout header={2} footer={2} onePageMenu={true}>
       <Hero2 />
-      <Contact pricing={pricing} />
+      <Contact pricing={pricing} setPricing={setPricing}/>
       <About />
       <Marquee />
       <Projects />
