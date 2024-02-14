@@ -127,7 +127,7 @@ const Header2 = ({ onePageMenu }) => {
                 <Link legacyBehavior href="/">
                   <a>
                     <img
-                      src="assets/images/logos/Logo2.jpg"
+                      src="assets/images/logos/TG logo.png"
                       alt="Logo"
                       title="Logo"
                     />
