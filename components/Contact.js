@@ -129,13 +129,14 @@ const Contact = (props) => {
                     date
                   }
                   console.log('fetch');
-                  fetch('/api/contact', {
+                  fetch('/api/contact',{
                     method: 'POST',
                     headers: {
                       'Accept': 'application/json, text/plain, */*',
                       'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify(data)
+                    body: JSON.stringify(data),
+                    cache:"no-store"
                   }).then((res) => {
                     console.log('Response received')
                     if (res.status === 200) {
