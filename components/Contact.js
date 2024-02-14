@@ -109,7 +109,7 @@ const Contact = (props) => {
                 id="contactForm"
                 className="contactForm"
                 name="contactForm"
-                action="assets/php/form-process.php"
+                action=""
                 method="post"
               >
                 <div className="row">
@@ -169,7 +169,6 @@ const Contact = (props) => {
                       <select
                         name="service" id="service"
                         className="form-control"
-                        defaultValue={"DEFAULT"}
                         value={props.pricing ?? "DEFAULT"}
                         required=""
                         data-error="Please enter your service"
