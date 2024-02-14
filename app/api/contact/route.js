@@ -8,14 +8,14 @@ export const POST =async(req) =>{
       host : "smtp.gmail.com",
       port : 535,
       auth: {
-        user: 'kmuralikum2002@gmail.com',
-        pass: "ljwp fvvo wqle bnaa",
+        user: 'mailtrscbe@gmail.com',
+        pass: "mquzkrnblouztdro",
       },
       secure: false,
     })
     const mailData = {
-      from: 'kmuralikum2002@gmail.com',
-      to: 'murali.k.cse.2019@snsct.org',
+      from: 'mailtrscbe@gmail.com',
+      to: 'navaindia.essensuals@gmail.com',
       subject: `Message From ${body.name}`,
     //   text: body.msg + " | Sent from: " + body.mail,
       html: `<h1>Toni & Guy Essensuals nava india</h1> 
@@ -36,3 +36,6 @@ export const POST =async(req) =>{
     })
     return Response.json({msg:"email Sent"})
   }
+
+  // user: 'mailtrscbe@gmail.com',
+  // pass: "mquzkrnblouztdro",

@@ -142,7 +142,6 @@ const Contact = (props) => {
                       setName('')
                       setLocality('')
                       setPhone('')
-                      setService('')
                       setTime('')
                       setDate('')
                       console.log('Response succeeded!')
