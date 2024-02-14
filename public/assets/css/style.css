@@ -4026,7 +4026,7 @@ h6,
 .main-header .logo {
   z-index: 9;
   padding: 2px 0;
-  width: 180px;
+  width: 250px;
   position: relative;
 }
 .main-header .nice-select .current {
@@ -4779,6 +4779,7 @@ h6,
 }
 .hero-content h1 {
   margin-bottom: 25px;
+  font-weight: bolder;
 }
 .hero-content h1 b {
   color: var(--primary-color);
