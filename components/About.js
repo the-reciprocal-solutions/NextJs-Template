@@ -11,7 +11,7 @@ const About = () => {
     fade: true,
     dots: false,
     autoplay: true,
-    autoplaySpeed: 3000 // Add this if you want navigation dots
+    autoplaySpeed: 3000
     // Add more settings as needed
   };
   return (
