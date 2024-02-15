@@ -1,6 +1,6 @@
 'use client'
 // import Carousel from 'react-bootstrap/Carousel';
-// import Counter from './Counter';
+import Counter from './Counter';
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
