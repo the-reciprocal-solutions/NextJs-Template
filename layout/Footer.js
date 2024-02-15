@@ -45,6 +45,7 @@ const Footer1 = () => {
                   <li>Hair Dressing</li>
                   <li>Beauty & Makeup</li>
                   <li>Hand & Feet Care</li>
+                  <li> <a href="#contact">Book an appointment</a></li>
                 </ul>
               </div>
             </div>
