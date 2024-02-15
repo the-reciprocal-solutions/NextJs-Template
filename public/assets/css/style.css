@@ -6882,6 +6882,12 @@ h6,
   margin-left:300px;
   padding: 10px;
 }
+@media only screen and (max-width:1199px) {
+  .marquee-item2 img{
+    margin-left:150px;
+    padding: 10px;
+  }
+}
 
 /* ====== */
 
