@@ -8734,7 +8734,7 @@ blockquote .blockquote-footer:before {
 @media only screen and (max-width:767px){
   .widget_logo{
     margin-top: 10px;
-    padding-left: 100px;
+    padding-left: 100px;   
    
   }
   .footer-title{
