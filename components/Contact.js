@@ -162,7 +162,7 @@ const Contact = (props) => {
                         value={name}
                         onChange={(e)=>{setName(e.target.value)}}
                         placeholder="Name"
-                        required="true"
+                        required={true}
                         data-error="Please enter your Name"
                       />
                       <div className="help-block with-errors" />
@@ -179,7 +179,7 @@ const Contact = (props) => {
                         value={locality}
                         onChange={(e)=>{setLocality(e.target.value)}}
                         placeholder="Locality"
-                        required="true"
+                        required={true}
                         data-error="Please enter your locality"
                       />
 
@@ -197,7 +197,7 @@ const Contact = (props) => {
                         value={phone}
                         onChange={(e)=>{setPhone(e.target.value)}}
                         placeholder="+91 98765 43210"
-                        required="true"
+                        required={true}
                         data-error="Please enter your Phone Number"
                       />
 
@@ -215,7 +215,7 @@ const Contact = (props) => {
                           console.log(e.target.value)
                           props.setPricing(e.target.value)
                         }}                        
-                        required="true"
+                        required={true}
                         data-error="Please enter your service"
                         placeholder="Select a Service"
                       >
@@ -241,7 +241,7 @@ const Contact = (props) => {
                         value={time}
                         onChange={(e)=>{setTime(e.target.value)}}
                         placeholder="Time"
-                        required=""
+                        required={true}
                         data-error="Please enter your time"
                         style={{colorScheme:"dark"}}
                       />
@@ -259,7 +259,7 @@ const Contact = (props) => {
                         value={date}
                         onChange={(e)=>{setDate(e.target.value)}}
                         placeholder="date"
-                        required=""
+                        required={true}
                         data-error="Please enter your Date"
                         style={{colorScheme:"dark"}}
                       />
