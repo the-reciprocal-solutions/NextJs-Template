@@ -48,6 +48,7 @@
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none;
+  /* font-family: "__DM_Sans_d98455","__DM_Sans_Fallback_d98455" !important; */
 }
 
 body {
@@ -845,8 +846,8 @@ a.theme-btn.style-three {
 /*** Scroll Top style ***/
 .scroll-top {
   position: fixed;
-  bottom: 1px;
-  right: 0;
+  bottom: 80px;
+  right: 30px;
   width: 40px;
   height: 40px;
   z-index: 99;
@@ -8754,9 +8755,9 @@ blockquote .blockquote-footer:before {
 
 .float1 {
   position: fixed;
-  width: 55px;
-  height: 55px;
-  bottom: 70px;
+  width: 53px;
+  height: 53px;
+  bottom: 7px;
   right: 20px;
   background-color: #4498ff;
   color: #FFF;
@@ -8773,12 +8774,12 @@ blockquote .blockquote-footer:before {
 
 .float{
   position:fixed;
-  width:55px;
+  width:60px;
   height:55px;
-  bottom: 70px;
+  bottom: 7px;
   left:25px;
-  background-color:#25d366;
-  color:#FFF;
+
+
   border-radius:50px;
   text-align:center;
   font-size:30px;
@@ -8786,7 +8787,7 @@ blockquote .blockquote-footer:before {
   z-index:100;
 }
 .float img{
-  padding: 10px;
+  padding: 0px;
 }
 
 .my-float{
