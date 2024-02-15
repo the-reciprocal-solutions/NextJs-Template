@@ -1,8 +1,19 @@
 'use client'
-import Carousel from 'react-bootstrap/Carousel';
-import Counter from './Counter';
+// import Carousel from 'react-bootstrap/Carousel';
+// import Counter from './Counter';
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const About = () => {
+  const settings = {
+    fade: true,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 3000 // Add this if you want navigation dots
+    // Add more settings as needed
+  };
   return (
     <section id="about" className="about-area rel z-1">
       <div className="for-bgc-black py-130 rpy-100">
@@ -43,26 +54,24 @@ const About = () => {
               </div>
             </div>
             <div className="container col-lg-5">
-            <Carousel>
-              <Carousel.Item>
-                  <div className=" wow fadeInUp delay-0-3s">
+            <Slider {...settings}>
+                  <div className="carousel-item-content wow fadeInUp delay-0-3s">
                     <img src="assets/images/about/Store1.jpg" alt="About Me" />
                     
                     {/* <div className="dot-shape">
                       <img src="assets/images/shape/about-dot.png" alt="Shape" />
                     </div> */}
                   </div>
-              </Carousel.Item>
-              <Carousel.Item>
-                  <div className=" wow fadeInUp delay-0-3s">
+
+                  <div className="carousel-item-content wow fadeInUp delay-0-3s">
                     <img src="assets/images/about/Store3.jpg" alt="About Me" />
                     
                     {/* <div className="dot-shape">
                       <img src="assets/images/shape/about-dot.png" alt="Shape" />
                     </div> */}
                   </div>
-              </Carousel.Item>
-            </Carousel>
+
+            </Slider>
             </div>
           </div>
         </div>
