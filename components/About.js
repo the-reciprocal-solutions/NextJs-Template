@@ -30,7 +30,7 @@ const About = () => {
                     At Toni & Guy Essensuals, we believe in the power of individuality and personal style. Our expert stylists are not just professionals, they’re artisans who are passionate about crafting bespoke looks that truly reflect your personality.
                   </p>
                   <p>
-                    From avant-garde haircuts that make a statement about your personality to rejuvenating botox treatments that bring back your youthful glow, we offer a comprehensive range of services tailored to your needs. 
+                    From avant-garde haircuts that make a statement about your personality to rejuvenating hair botox treatments that bring back your youthful glow, we offer a comprehensive range of services tailored to your needs. 
                   </p>
                 </div>
                 <div className="about-info-box mt-25 wow fadeInUp delay-0-2s">
