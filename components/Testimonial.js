@@ -73,7 +73,7 @@ export default class Testimonial extends Component {
                   <div className="testimonial-item wow fadeInUp delay-0-4s">
                     <div className="author">
                       <img
-                        src="assets/images/testimonials/Female.png"
+                        src="assets/images/testimonials/Female2.png"
                         alt="Author"
                       />
                     </div>
@@ -88,7 +88,7 @@ export default class Testimonial extends Component {
                   <div className="testimonial-item wow fadeInUp delay-0-2s">
                     <div className="author">
                       <img
-                        src="assets/images/testimonials/Female.png"
+                        src="assets/images/testimonials/Female3.png"
                         alt="Author"
                       />
                     </div>
