@@ -8786,3 +8786,7 @@ blockquote .blockquote-footer:before {
 .my-float{
   margin-top:12px;
 }
+
+.carousel-item-content {
+  transition: opacity 0.5s ease-in-out; /* Adjust the duration and easing function as needed */
+}
