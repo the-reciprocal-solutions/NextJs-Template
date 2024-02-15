@@ -6947,6 +6947,7 @@ h6,
 }
 .testimonial-item .author img {
   display: inline-block;
+  width:110px
 }
 .testimonial-item .author:before {
   content: "\f10d";
