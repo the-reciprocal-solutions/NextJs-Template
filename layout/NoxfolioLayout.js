@@ -27,7 +27,8 @@ const NoxfolioLayout = ({
       </a>
 
       <a href="https://api.whatsapp.com/send?phone=+919514708880&text=Hello Toni and Guy Essensuals Nava India!" className="float" target="_blank">
-        <img src="assets/images/widgets/Frame 1.svg" alt="whatsapp" />
+      <img src="assets/images/widgets/whatsapp.png">
+      </img>
       </a>
     </div>
   );
