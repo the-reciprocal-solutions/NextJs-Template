@@ -1,4 +1,5 @@
 import { DM_Sans, Inter } from "next/font/google";
+import Script from "next/script";
 
 import Preloader from "@/layout/Preloader";
 import "@css/animate.min.css";
@@ -44,6 +45,18 @@ export default function RootLayout({ children }) {
         {/* <Preloader /> */}
         {children}
       </body>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-VBJE869ZTY"
+        strategy="afterInteractive"
+      />
+      <Script strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-VBJE869ZTY');
+        `}
+      </Script>
     </html>
   );
 }
