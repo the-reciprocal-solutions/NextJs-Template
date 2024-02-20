@@ -81,7 +81,7 @@ export const Hero2 = () => {
                     <div className="hero-content rmb-55 pb-60 wow fadeInUp delay-0-2s">
                       <span className="h2"><strong>Welcome to</strong></span>
                       <h1>
-                        <b>TONY&GUY</b> <br />Essensuals!
+                        <b>TONI&GUY</b> <br />Essensuals!
                       </h1>
                       <p>Essensuals navaindia is the one and only hair salon and spa with <strong>CAR PARKING SPACE</strong> and it is the largest salon in Coimbatore</p>
                       <div className="hero-btns">
