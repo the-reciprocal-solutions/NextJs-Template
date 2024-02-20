@@ -9,7 +9,7 @@ import 'slick-carousel/slick/slick-theme.css';
 const About = () => {
   const settings = {
     fade: true,
-    dots: false,
+    dots: true,
     autoplay: true,
     autoplaySpeed: 3000
     // Add more settings as needed
