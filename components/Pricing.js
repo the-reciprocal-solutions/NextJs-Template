@@ -41,7 +41,7 @@ const Pricing = (props) => {
                       props.setPricing(e.title);
                       const contactElement = document.getElementById("contact");
                       contactElement.scrollIntoView({ behavior: "smooth" });
-                      window.location.hash = "#contact";
+                      window.location.hash = "#booking";
                     }}>
                       <a className="theme-btn">
                         Choose Package <i className="far fa-angle-right" />

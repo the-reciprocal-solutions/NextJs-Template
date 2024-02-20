@@ -94,6 +94,7 @@ const Contact = (props) => {
       id="contact"
       className="contact-area pt-95 pb-130 rpt-70 rpb-100 rel z-1"
     >
+      <section id="booking"></section>
       <div className="container">
         <div className="row">
           <div className="col-lg-4">

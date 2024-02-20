@@ -9,41 +9,9 @@ const ProjectGridIsotop2 = dynamic(
 );
 
 const Services = ({ extraClass }) => {
-  const services = [
-    {
-      id: 1,
-      title: "Brand Identity Design",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-    {
-      id: 2,
-      title: "Website Design",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-    {
-      id: 3,
-      title: "Mobile Application Design",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-    {
-      id: 4,
-      title: "Motion Graphics Design",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-    {
-      id: 5,
-      title: "Website Development",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-    {
-      id: 6,
-      title: "SEO & Digital Marketing",
-      text: "Dignissimos ducimus blanditiis praesen",
-    },
-  ];
   return (
     <section
-      id="services"
+      id="popularservices"
       className={`services-area pt-10 rpt-100 pb-100 rpb-70 rel z-1 ${extraClass}`}
     >
       {/* Projects page from project grid view */}

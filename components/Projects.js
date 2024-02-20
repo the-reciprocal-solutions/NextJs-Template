@@ -3,7 +3,7 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <section
-      id="projects"
+      id="services"
       className="projects-area pt-90 rpt-100 pb-100 rpb-70 rel z-1"
     >
       <div className="container">

@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from 'react-bootstrap/Image';
 
-
 const Hero = () => {
   return (
     <section id="home" className="main-hero-area pt-150 pb-80 rel z-1 ">
@@ -86,7 +85,7 @@ export const Hero2 = () => {
                       </h1>
                       <p>Essensuals navaindia is the one and only hair salon and spa with <strong>CAR PARKING SPACE</strong> and it is the largest salon in Coimbatore</p>
                       <div className="hero-btns">
-                        <Link legacyBehavior href="#contact">
+                        <Link legacyBehavior href="#booking">
                           <a className="theme-btn">
                             Book Now <i className="far fa-angle-right" />
                           </a>

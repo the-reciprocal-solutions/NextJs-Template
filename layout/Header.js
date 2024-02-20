@@ -179,7 +179,7 @@ const Header2 = ({ onePageMenu }) => {
                         <a href="#resume">Resume</a>
                       </li> */}
                       <li>
-                        <a href="/#projects">services</a>
+                        <a href="/#services">services</a>
                       </li>
                       <li>
                         <a href="/#pricing">Pricing</a>
