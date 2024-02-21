@@ -31,6 +31,13 @@ const Services = ({ extraClass }) => {
           </div>
         </div>
         <ProjectGridIsotop2 />
+        <div className="project-btn text-center wow fadeInUp delay-0-2s">
+          <Link legacyBehavior href="/catalogue">
+            <a className="theme-btn">
+              View More<i className="far fa-angle-right" />
+            </a>
+          </Link>
+        </div>
         {/* <div className="row">
           {services.map((service) => (
             <div className="col-lg-6" key={service.id}>
