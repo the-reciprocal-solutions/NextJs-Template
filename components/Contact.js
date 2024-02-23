@@ -21,7 +21,7 @@ const Contact = (props) => {
     },
     {
       "id": 5,
-      "title": "Hair Botox",
+      "title": "HairBotox",
     },
     {
       "id": 6,

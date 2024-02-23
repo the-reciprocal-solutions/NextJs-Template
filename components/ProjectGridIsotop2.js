@@ -135,8 +135,8 @@ const ProjectGridIsotop2 = () => {
           <div className="service-item wow fadeInUp delay-0-2s">
 
             <div className="content">
-              <h4>Hair Botox</h4>
-              <p>Rejuvenate your hair with our hair Botox treatment at TONI&GUY Essensuals, restoring vitality and shine for a youthful, radiant appearance.
+              <h4>HairBotox</h4>
+              <p>Rejuvenate your hair with our hairBotox treatment at TONI&GUY Essensuals, restoring vitality and shine for a youthful, radiant appearance.
               </p>
             </div>
 
