@@ -67,7 +67,7 @@ export const Hero2 = () => {
     <div id="home" className={`hero-area-two overlay rel z-2 heroContainer`}>
       <div className="row justify-content-center">
         <div className="hero-two-content">
-          <div className="col-xl-12 col-lg-7">
+          <div className="col-xl-12 ">
             <div className="wow fadeIn delay-0-3s">
               <div className="image-container">
                 <img 
@@ -76,8 +76,8 @@ export const Hero2 = () => {
                   alt="Author"
                   className="bg-image"
                 />
-                <div className={`text-overlay ml-150`}>
-                  <div className="col-lg-12 col-sm-7">
+                <div className={`text-overlay`}>
+                  <div className="col-lg-12  d-flex align-items-center justify-content-center">
                     <div className="hero-content rmb-55 pb-60 wow fadeInUp delay-0-2s">
                       <span className="h2"><strong>Welcome to</strong></span>
                       <h1>

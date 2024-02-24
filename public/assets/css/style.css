@@ -8622,8 +8622,6 @@ blockquote .blockquote-footer:before {
   justify-content: center;
   color: #fff; 
   text-align: center;
-  padding-left: 550px;
-  padding-bottom: 10px;
   padding-top: 120px;
   z-index: 1; 
 }
