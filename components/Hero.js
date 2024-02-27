@@ -72,9 +72,10 @@ export const Hero2 = () => {
               <div className="image-container">
                 <img 
                 height={750}
-                  src="assets/images/hero/legacy.jpg"
+                  src="assets/images/hero/legacy-bg.jpg"
                   alt="Author"
-                  className="bg-image"
+                  className="bg-image object-fit-cover"
+                  style={{objectFit: "cover"}}
                 />
                 <div className={`text-overlay`}>
                   <div className="col-lg-12  d-flex align-items-center justify-content-center">
