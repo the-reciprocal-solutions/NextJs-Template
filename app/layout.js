@@ -33,7 +33,7 @@ export const metadata = {
     template:
       "Essensuals Toni & Guy || %s",
     default:
-      "Essensuals by Toni & Guy nava india || Home", // a default is required when creating a template
+      "Essensuals by Toni & Guy nava india", // a default is required when creating a template
   },
   description: "Essensuals Toni & Guy",
 };
