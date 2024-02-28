@@ -72,7 +72,7 @@ export const Hero2 = () => {
               <div className="image-container">
                 <img 
                 height={750}
-                  src="assets/images/hero/legacy.jpg"
+                  src="assets/images/hero/legacy-bg.jpg"
                   alt="Author"
                   className="bg-image object-fit-cover"
                   style={{objectFit:"cover", objectPosition: "top"}}
