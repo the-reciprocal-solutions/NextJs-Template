@@ -120,7 +120,7 @@ const Header2 = ({ onePageMenu }) => {
     <header className="main-header header-two menu-absolute">
       {/*Header-Upper*/}
       <div className="header-upper">
-        <div id="main-nav" className="container container-1620 clearfix">
+        <div id="main-nav" >
           <div className="header-inner rel d-flex align-items-center col-md-11">
             <div className="logo-outer">
               <div className="logo">

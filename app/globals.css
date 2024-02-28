@@ -42,6 +42,7 @@ html {
 #main-nav {
   @media (max-width: 950px) {
     background-color: #b09c6d;
+    width:auto;
   }
 }
 
