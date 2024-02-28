@@ -75,7 +75,7 @@ export const Hero2 = () => {
                   src="assets/images/hero/legacy.jpg"
                   alt="Author"
                   className="bg-image object-fit-cover"
-                  // style={{objectFit:"cover"}}
+                  style={{objectFit:"cover", objectPosition: "top"}}
                 />
                 <div className={`text-overlay`}>
                   <div className="col-lg-12  d-flex align-items-center justify-content-center">
